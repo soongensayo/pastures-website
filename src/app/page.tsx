@@ -12,7 +12,7 @@ export default function Home() {
 
       <Head>
         <title>Pastures</title>
-        <link rel="icon" href="/pastureslogo1.png"/>
+        <link rel="icon" href="/favicon.ico"/>
       </Head>
 
       <MaxWidthWrapper className="mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center">
