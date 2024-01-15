@@ -14,7 +14,7 @@ const VideoPlayerComponent: React.FC = () => {
         className='react-player'
         playing
         width='100%'
-        height='1000px'
+        height='750px'
       />
     </div>
   );
