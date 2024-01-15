@@ -96,7 +96,7 @@ export default function Home() {
               </span>
               <span className='mt-2 text-zinc-700'>
                 of journal entries into various life aspects, without user having to manually do so. {' '}
-                <Link href='/pricing' className='text-blue-700 underline underline-offset-2'>
+                <Link href='mailto:soongen@u.nus.edu' className='text-blue-700 underline underline-offset-2'>
 
                 </Link>
               </span>
@@ -161,7 +161,7 @@ export default function Home() {
               <Link className={buttonVariants({
                 size: 'lg',
                 className: "mt-5",
-              })} href='/dashboard' target='_blank'>
+              })} href='mailto:soongen.pastures@gmail.com' target='_blank'>
                 Email to learn more <ArrowRight className='m1-2 h-5 w-5' />
               </Link>
 
