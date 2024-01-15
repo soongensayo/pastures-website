@@ -128,7 +128,7 @@ export default function Home() {
           </li>
         </ol>
 
-        <div className='mb-12 px-16 lg:px-8 mt-28'>
+        <div className=' px-6 lg:px-6 mt-28'>
           <div className='mx-auto max-w-2xl sm:text-center'>
             <h2 className='mt-2 font-bold text-4xl text-gray-900 sm:text-5xl'>
               Demo.
