@@ -2,7 +2,7 @@ import Link from "next/link"
 import MaxWidthWrapper from "./MaxWidthWrapper"
 import { buttonVariants } from "./ui/button"
 import { ArrowRight } from "lucide-react"
-import Image from 'next/image'; 
+import Image from 'next/image';
 
 const Navbar = () => {
     return (
@@ -12,7 +12,7 @@ const Navbar = () => {
                     <Link
                         href='/'
                         className="flex z-40 font-semibold">
-                        <Image src="/pastureslogo1.png" alt="Logo" width={30} height={30}/>
+                        <Image src="/pastureslogo1.png" alt="Logo" width={30} height={30} />
                         <span className='text-green-700'> pastures.</span>
                     </Link>
 
@@ -20,15 +20,14 @@ const Navbar = () => {
 
                     <div className='hidden items-center space-x-4 sm:flex'>
                         <>
-                            
 
-                            <Link href='mailto:soongen.pastures@gmail.com'
-                                className={buttonVariants({
-                                    size: 'sm'
-                                })}>
-                                Email to learn more <ArrowRight className='ml-1.5 h-5 w-5'/>
+                            <Link className={buttonVariants({
+                                size: 'sm',
+                                
+                            })} href='mailto:soongen.pastures@gmail.com' target='_blank'>
+                                Email to learn more <ArrowRight className='ml-1.5 h-5 w-5' />
                             </Link>
-                            
+
 
 
                         </>
