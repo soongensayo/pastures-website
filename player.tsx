@@ -11,7 +11,7 @@ const VideoPlayerComponent: React.FC = () => {
         className='react-player'
         playing
         width='100%'
-        height='750px'
+        height='700px'
         loop
         playsinline
       />
