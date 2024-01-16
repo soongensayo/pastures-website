@@ -1,6 +1,6 @@
 # pastures-website
 
-## pastures.app
+## [pastures.app](https://pastures.app)
 a teaser page for my startup idea
 
 ## Website Technologies
