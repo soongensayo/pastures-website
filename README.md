@@ -1,6 +1,22 @@
-<<<<<<< HEAD
-Pastures Teaser Page.
-=======
 # pastures-website
-landing page for my upcoming mobile app
->>>>>>> origin/main
+
+## pastures.app
+a teaser page for my startup idea
+
+## Website Technologies
+- Next.js
+- TypeScript
+- Tailwind
+- React
+
+## Features 
+- clean, modern UI using "shadcn-ui"
+- written in TypeScript
+- beautiful landing page
+
+## Getting started
+install packages
+```npm install```
+
+run developmental server
+```npm run dev```
