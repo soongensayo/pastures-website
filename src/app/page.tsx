@@ -110,7 +110,7 @@ export default function Home() {
                 Daily, personalized and relevant devotional prompts...
               </span>
               <span className='mt-2 text-zinc-700'>
-                that contextualises one's faith by linking user's personal experiences to theoretical learnings about the faith.
+                that contextualizes one's faith by linking user's personal experiences to theoretical learnings about the faith.
               </span>
             </div>
           </li>
@@ -167,19 +167,14 @@ export default function Home() {
 
 
               <p className='mt-8 text-lg text-gray-600'><em>
-                Psalm 23:2 "He makes me lie down in green <span className='text-green-700'>pastures.</span>..."
+                Psalm 23:2 "He makes me lie down in green <span className='text-green-700 font-semibold'>pastures.</span>..."
                 </em></p>
-            </div>
-
-            
+            </div>            
           </div>
         </div>
 
-
-
-
-
       </div>
+
     </>
   )
 }
