@@ -95,7 +95,7 @@ export default function Home() {
                 Seamless and AI-powered categorization...
               </span>
               <span className='mt-2 text-zinc-700'>
-                of journal entries into various life aspects, without user having to manually do so. {' '}
+                of journal entries into various life aspects, without user having to manually do so. Allows for intuitive review. {' '}
                 <Link href='mailto:soongen@u.nus.edu' className='text-blue-700 underline underline-offset-2'>
 
                 </Link>
