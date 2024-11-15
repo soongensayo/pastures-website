@@ -169,10 +169,10 @@ export default function Home() {
         <div className="mx-auto max-w-5xl mt-32 px-6 lg:px-8">
           <div className="text-center">
             <h2 className="mt-2 text-4xl font-bold text-gray-900 sm:text-5xl">
-              Book a Chat
+              Book a Chat.
             </h2>
             <p className="mt-4 text-lg text-gray-600">
-              Interested in what Pastures could do for you? Schedule a 20-minute chat here.
+              Interested in what Pastures could do for you? Interested to be a part of the team? Schedule a 20-minute chat here.
             </p>
           </div>
           <div
