@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect } from 'react'
 import MaxWidthWrapper from '@/components/MaxWidthWrapper'
 import Image from 'next/image'
