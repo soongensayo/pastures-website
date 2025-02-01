@@ -113,8 +113,8 @@ export default function Home() {
                 Seamless and AI-powered categorization...
               </span>
               <span className='mt-2 text-zinc-700'>
-                of journal entries into various life aspects, without user having to manually do so. Allows for intuitive review. {' '}
-                <Link href='mailto:soongen@u.nus.edu' className='text-blue-700 underline underline-offset-2'>
+                of journal entries into various life journeys, without user having to manually do so. Allows for intuitive review. {' '}
+                <Link href='mailto:soongen@pastures.app' className='text-blue-700 underline underline-offset-2'>
 
                 </Link>
               </span>
@@ -152,7 +152,7 @@ export default function Home() {
               Demo.
             </h2>
             <p className='mt-4 text-lg text-gray-600'>
-              An MVP (version 1) has been developed as of Aug 2023, and it offers a mere foretaste of what Pastures will be able to do.
+              An MVP (version 1) has been developed as of Aug 2023, and it offers a mere foretaste of what Pastures will be able to do. An improved beta version (2025) has just been made available for testing.
             </p>
           </div>
         </div>
@@ -196,7 +196,7 @@ export default function Home() {
               <Link className={buttonVariants({
                 size: 'lg',
                 className: "mt-5",
-              })} href='mailto:soongen@pastures.app' target='_blank'>
+              })} href='https://forms.gle/ERoFFHaGrL9QVWHm8' target='_blank'>
                 Email to learn more <ArrowRight className='m1-2 h-5 w-5' />
               </Link>
 
