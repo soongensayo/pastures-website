@@ -24,7 +24,7 @@ const Navbar = () => {
                             <Link className={buttonVariants({
                                 size: 'sm',
                                 
-                            })} href='Sign up for beta testing' target='_blank'>
+                            })} href='test' target='_blank'>
                                 Sign up for beta testing <ArrowRight className='ml-1.5 h-5 w-5' />
                              </Link>
 

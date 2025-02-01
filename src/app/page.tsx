@@ -196,7 +196,7 @@ export default function Home() {
               <Link className={buttonVariants({
                 size: 'lg',
                 className: "mt-5",
-              })} href='https://forms.gle/ERoFFHaGrL9QVWHm8' target='_blank'>
+              })} href='mailto:soongen@pastures.app' target='_blank'>
                 Email <ArrowRight className='m1-2 h-5 w-5' />
               </Link>
 
