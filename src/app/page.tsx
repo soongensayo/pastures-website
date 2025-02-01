@@ -197,7 +197,7 @@ export default function Home() {
                 size: 'lg',
                 className: "mt-5",
               })} href='https://forms.gle/ERoFFHaGrL9QVWHm8' target='_blank'>
-                Email to learn more <ArrowRight className='m1-2 h-5 w-5' />
+                Sign up for beta testing <ArrowRight className='m1-2 h-5 w-5' />
               </Link>
 
 
