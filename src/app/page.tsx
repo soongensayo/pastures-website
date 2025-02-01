@@ -152,7 +152,7 @@ export default function Home() {
               Demo.
             </h2>
             <p className='mt-4 text-lg text-gray-600'>
-              An MVP (version 1) has been developed as of Aug 2023, and it offers a mere foretaste of what Pastures will be able to do. An improved beta version (2025) has just been made available for testing.
+              An MVP (version 1) has been developed as of Aug 2023 as shown below, and it offers a mere foretaste of what Pastures will be able to do. An improved beta version (2025) has just been made available for beta testing.
             </p>
           </div>
         </div>
@@ -172,7 +172,7 @@ export default function Home() {
               Book a Chat.
             </h2>
             <p className="mt-4 text-lg text-gray-600">
-              Interested in what Pastures could do for you? Interested to be a part of the team? Schedule a 20-minute chat here.
+              Interested in what Pastures could do for the Lord, others, or you? Schedule a 20-minute chat here.
             </p>
           </div>
           <div
@@ -197,7 +197,7 @@ export default function Home() {
                 size: 'lg',
                 className: "mt-5",
               })} href='https://forms.gle/ERoFFHaGrL9QVWHm8' target='_blank'>
-                Sign up for beta testing <ArrowRight className='m1-2 h-5 w-5' />
+                Email <ArrowRight className='m1-2 h-5 w-5' />
               </Link>
 
 
