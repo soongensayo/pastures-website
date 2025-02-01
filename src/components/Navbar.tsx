@@ -24,9 +24,9 @@ const Navbar = () => {
                             <Link className={buttonVariants({
                                 size: 'sm',
                                 
-                            })} href='mailto:soongen.pastures@gmail.com' target='_blank'>
+                            })} href='mailto:soongen@pastures.app' target='_blank'>
                                 Email to learn more <ArrowRight className='ml-1.5 h-5 w-5' />
-                            </Link>
+                             </Link>
 
 
 
