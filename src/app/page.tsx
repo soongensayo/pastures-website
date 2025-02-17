@@ -152,7 +152,7 @@ export default function Home() {
               Demo.
             </h2>
             <p className='mt-4 text-lg text-gray-600'>
-              An MVP (version 1) has been developed as of Aug 2023 as shown below, and it offers a mere foretaste of what Pastures will be able to do. An improved beta version (2025) has just been made available for beta testing.
+              An MVP (version 1) has been developed as of Aug 2023 as shown below, and it offers a mere foretaste of what Pastures will be able to do. A much improved beta version (2025) has just been made available for beta testing.
             </p>
           </div>
         </div>
