@@ -18,18 +18,13 @@ const Navbar = () => {
 
                     {/* todo: add mobile navbar */}
 
-                    <div className='hidden items-center space-x-4 sm:flex'>
+                    <div className='flex items-center space-x-4'>
                         <>
-
                             <Link className={buttonVariants({
                                 size: 'sm',
-                                
                             })} href='test' target='_blank'>
                                 Sign up for beta testing <ArrowRight className='ml-1.5 h-5 w-5' />
-                             </Link>
-
-
-
+                            </Link>
                         </>
                     </div>
 
