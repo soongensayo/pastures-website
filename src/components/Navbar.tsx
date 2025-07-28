@@ -20,6 +20,15 @@ const Navbar = () => {
 
                     <div className='flex items-center space-x-4'>
                         <>
+                            <Link
+                                href='/privacy'
+                                className={buttonVariants({
+                                    variant: "ghost",
+                                    size: 'sm'
+                                })}>
+                                Privacy
+                            </Link>
+                            
                             <Link className={buttonVariants({
                                 size: 'sm',
                             })} href='test' target='_blank'>
