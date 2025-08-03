@@ -96,14 +96,14 @@ const JourneyVideo: React.FC<JourneyVideoProps> = ({
             {description}
           </p>
 
-          <div className="space-y-2 text-center">
+          {/* <div className="space-y-2 text-center">
             {features.map((feature, index) => (
               <div key={index} className="flex items-start gap-2">
                 <div className="w-1.5 h-1.5 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
                 <span className="text-zinc-700 text-xs">{feature}</span>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     )
@@ -159,7 +159,7 @@ const JourneyVideo: React.FC<JourneyVideoProps> = ({
           {description}
         </p>
 
-        <div className="space-y-2 text-center">
+        {/* <div className="space-y-2 text-center">
           {features.map((feature, index) => (
             <div 
               key={index}
@@ -173,7 +173,8 @@ const JourneyVideo: React.FC<JourneyVideoProps> = ({
               <span className="text-zinc-700 text-xs">{feature}</span>
             </div>
           ))}
-        </div>
+        </div> */}
+        {/* Bullet points temporarily hidden */}
       </div>
     </div>
   )

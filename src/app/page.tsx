@@ -161,48 +161,9 @@ export default function Home() {
         {/* Daily Prompt Section */}
         <DailyPrompt />
 
-        {/* Calendly Section */}
-        <div className="mx-auto max-w-5xl mt-32 px-6 lg:px-8">
-          <div className="text-center">
-            <h2 className="mt-2 text-4xl font-bold text-gray-900 sm:text-5xl">
-              Book a Chat.
-            </h2>
-            <p className="mt-4 text-lg text-gray-600">
-              Interested in what Pastures could do for the Lord, others, or you? Schedule a 20-minute chat here.
-            </p>
-          </div>
-          <div
-            className="calendly-inline-widget mt-8"
-            data-url="https://calendly.com/soongen-pastures/30min"
-            style={{ minWidth: '320px', height: '700px' }}
-          ></div>
-        </div>
-
-        <div className='mx-auto mb-32 mt-16 max-w-5xl sm:mt-36'>
-          <div className='mb-12 px-6 lg:px-8'>
-            <div className='mx-auto max-w-2xl sm:text-center'>
-              <h2 className='mt-2 font-bold text-4xl text-gray-900 sm:text-5xl'>
-                Contact.
-              </h2>
-              <p className='mt-4 text-lg text-gray-600'>
-                Send an email over to find out how you can contribute, donate, invest, or pray for this app.
-              </p>
 
 
-              <Link className={buttonVariants({
-                size: 'lg',
-                className: "mt-5",
-              })} href='mailto:soongen@pastures.app' target='_blank'>
-                Email <ArrowRight className='m1-2 h-5 w-5' />
-              </Link>
 
-
-              <p className='mt-8 text-lg text-gray-600'><em>
-                Psalm 23:2 "He makes me lie down in green <span className='text-green-700 font-semibold'>pastures.</span>..."
-              </em></p>
-            </div>
-          </div>
-        </div>
 
       </div>
 

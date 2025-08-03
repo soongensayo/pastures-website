@@ -29,6 +29,7 @@
     "react-loading": "^2.0.3",
     "react-loading-skeleton": "^3.3.1",
     "react-player": "^2.14.1",
+    "resend": "^4.7.0",
     "skeleton": "^0.1.2",
     "tailwind-merge": "^2.1.0",
     "tailwindcss-animate": "^1.0.7",

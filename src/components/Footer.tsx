@@ -21,12 +21,6 @@ const Footer = () => {
                                 Privacy Policy
                             </Link>
                             <Link 
-                                href="/terms" 
-                                className="hover:text-green-600 transition-colors"
-                            >
-                                Terms of Service
-                            </Link>
-                            <Link 
                                 href="/contact" 
                                 className="hover:text-green-600 transition-colors"
                             >
