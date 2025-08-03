@@ -317,7 +317,6 @@ export default function ContactPage() {
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Don't wait to start connecting your daily experiences with God's Word. 
-              Whether through a quick message or a detailed conversation, we're here to connect.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button size="lg" onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}>
@@ -332,4 +331,4 @@ export default function ContactPage() {
       </div>
     </>
   )
-}git add
+}
