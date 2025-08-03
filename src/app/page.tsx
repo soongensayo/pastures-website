@@ -8,7 +8,10 @@ import { Button, buttonVariants } from '@/components/ui/button'
 import { ArrowRight } from 'lucide-react'
 import VideoPlayerComponent from '../../player'
 import Head from 'next/head'
-
+import CapabilitiesSection from '@/components/CapabilitiesSection'
+import Entries from '@/components/Entries';
+import Journeys from '@/components/Journeys';
+import DailyPrompt from '@/components/DailyPrompt';
 
 
 export default function Home() {
@@ -65,7 +68,7 @@ export default function Home() {
               <div className='mt-16 flow-root sm:mt-24'>
                 <div className='-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4'>
                   <Image
-                    src='/pastures-showcase.svg'
+                    src='/pastures-showcase1.svg'
                     alt='product preview'
                     width={1920}
                     height={1080}
@@ -146,24 +149,17 @@ export default function Home() {
           </li>
         </ol>
 
-        <div className=' px-6 lg:px-6 mt-28'>
-          <div className='mx-auto max-w-2xl sm:text-center'>
-            <h2 className='mt-2 font-bold text-4xl text-gray-900 sm:text-5xl'>
-              Demo.
-            </h2>
-            <p className='mt-4 text-lg text-gray-600'>
-              An MVP (version 1) has been developed as of Aug 2023 as shown below, and it offers a mere foretaste of what Pastures will be able to do. A much improved beta version (2025) has just been made available for beta testing.
-            </p>
-          </div>
-        </div>
+        {/* Capabilities Section */}
+        <CapabilitiesSection />
 
-        <div className='mx-auto max-w-6xl px-6 lg:px-8'>
-          <div className='mt-16 flow-root sm:mt-10'>
-            <div className='-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4'>
-              <VideoPlayerComponent />
-            </div>
-          </div>
-        </div>
+        {/* Entries Section */}
+        <Entries />
+
+        {/* Journeys Section */}
+        <Journeys />
+
+        {/* Daily Prompt Section */}
+        <DailyPrompt />
 
         {/* Calendly Section */}
         <div className="mx-auto max-w-5xl mt-32 px-6 lg:px-8">
@@ -189,7 +185,7 @@ export default function Home() {
                 Contact.
               </h2>
               <p className='mt-4 text-lg text-gray-600'>
-                Send an email over to find out how you can contribute, invest, or pray for this app.
+                Send an email over to find out how you can contribute, donate, invest, or pray for this app.
               </p>
 
 

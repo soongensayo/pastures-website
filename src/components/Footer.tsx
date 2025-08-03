@@ -32,12 +32,6 @@ const Footer = () => {
                             >
                                 Contact
                             </Link>
-                            <Link 
-                                href="/support" 
-                                className="hover:text-green-600 transition-colors"
-                            >
-                                Support
-                            </Link>
                         </div>
                     </div>
                     
@@ -45,7 +39,7 @@ const Footer = () => {
                         <p className="text-center text-sm text-gray-500">
                             © {new Date().getFullYear()} Pastures. All rights reserved. 
                             <span className="block mt-1">
-                                Connecting you with your thoughts, experiences, and the Word of God.
+                                Connect with your thoughts, experiences, and the Word of God.
                             </span>
                         </p>
                     </div>
