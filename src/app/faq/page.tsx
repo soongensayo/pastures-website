@@ -7,15 +7,15 @@ export default function FAQPage() {
   const faqs = [
     {
       question: "What is Pastures?",
-      answer: "Pastures is a digital platform designed to help believers connect their daily experiences with God's Word through guided reflection and community support."
+      answer: "Pastures is a Christian-based app designed to help believers connect their daily experiences with God's Word through guided reflection and intelligent features."
     },
     {
       question: "How does the daily prompt feature work?",
-      answer: "Each day, you'll receive a thoughtful prompt that encourages you to reflect on your experiences through a biblical lens, helping you see God's presence in everyday moments."
+      answer: "Each day, you can generate a thoughtful prompt that encourages you to reflect on your experiences through a biblical lens, helping you see God's presence in everyday moments."
     },
     {
       question: "Is Pastures free to use?",
-      answer: "We're currently in beta testing phase. Details about pricing will be shared as we approach our official launch."
+      answer: "Yes, Pastures is free to use. We're currently in beta testing phase. Details about pricing will be shared as we approach our official launch."
     },
     {
       question: "How can I join the beta testing?",
@@ -26,8 +26,8 @@ export default function FAQPage() {
       answer: "Pastures focuses on connecting your personal daily experiences with Scripture, rather than just providing generic devotional content. It's about finding God in your unique journey."
     },
     {
-      question: "Do I need to be a mature Christian to use Pastures?",
-      answer: "Not at all! Pastures is designed for believers at any stage of their faith journey, from new believers to mature Christians seeking deeper connection with God."
+      question: "Do I need to be a Christian to use Pastures?",
+      answer: "No, but the features are catered to Christians."
     }
   ]
 

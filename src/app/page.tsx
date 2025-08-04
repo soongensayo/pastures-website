@@ -162,10 +162,20 @@ export default function Home() {
         <DailyPrompt />
 
 
-
-
-
+        {/* Bible Verse */}
+        <div className="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm">
+          <p className="text-gray-600 italic text-center">
+            "He makes me lie down in green{' '}
+            <span className="text-green-700 font-semibold">pastures</span>..."
+          </p>
+          <p className="text-sm text-gray-500 text-center mt-2">Psalm 23:2</p>
+        </div>
       </div>
+
+
+
+
+
 
     </>
   )

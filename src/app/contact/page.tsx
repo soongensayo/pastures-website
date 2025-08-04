@@ -84,9 +84,6 @@ export default function ContactPage() {
           <p className="text-gray-600">
             Thank you for reaching out to the Pastures team. Your message has been delivered successfully, and we'll get back to you within 24 hours.
           </p>
-          <p className="text-sm text-gray-500">
-            You should receive a confirmation email shortly at the address you provided.
-          </p>
           <Link href="/">
             <Button className="mt-4">
               Back to Home <ArrowRight className="ml-2 h-4 w-4" />
@@ -142,36 +139,11 @@ export default function ContactPage() {
                     <Mail className="w-6 h-6 text-blue-600" />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900">Email Us</h3>
+                    <h3 className="text-lg font-semibold text-gray-900">Email</h3>
                     <p className="text-gray-600">soongen@pastures.app</p>
-                    <p className="text-sm text-gray-500 mt-1">We typically respond within 24 hours</p>
+                    <p className="text-sm text-gray-500 mt-1">Or use the contact form</p>
                   </div>
                 </div>
-
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <MessageSquare className="w-6 h-6 text-green-600" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900">Schedule a Call</h3>
-                    <p className="text-gray-600">Book a 20-minute conversation</p>
-                    <button 
-                      onClick={() => document.getElementById('calendly')?.scrollIntoView({ behavior: 'smooth' })}
-                      className="text-green-600 hover:text-green-700 text-sm font-medium transition-colors cursor-pointer"
-                    >
-                      Schedule now →
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              {/* Bible Verse */}
-              <div className="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm">
-                <p className="text-gray-600 italic text-center">
-                  "He makes me lie down in green{' '}
-                  <span className="text-green-700 font-semibold">pastures</span>..."
-                </p>
-                <p className="text-sm text-gray-500 text-center mt-2">Psalm 23:2</p>
               </div>
             </div>
 
