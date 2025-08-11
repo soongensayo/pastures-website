@@ -72,7 +72,7 @@ export default function AboutPage() {
                     </p>
                     
                     <p className="text-gray-600 leading-relaxed">
-                      Every day, we consume a plethora of information - sermons, Bible studies, devotionals, 
+                      As Christians, we consume a plethora of information - sermons, Bible studies, devotionals, 
                       spiritual conversations, and personal insights. Over the years, we accumulate countless 
                       experiences, thoughts, and learnings scattered across notebooks, apps, and memory.
                     </p>
