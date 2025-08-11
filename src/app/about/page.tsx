@@ -6,26 +6,37 @@ import Link from 'next/link'
 export default function AboutPage() {
   return (
     <>
-      {/* Hero Section with Integrated Story */}
-      <div className="bg-gradient-to-br from-green-50 via-blue-50 to-purple-50">
-        <MaxWidthWrapper className="pt-20 pb-12">
-          <div className="text-center space-y-6">
-            <div className="inline-flex items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white px-7 py-2 shadow-md backdrop-blur transition-all hover:border-gray-300 hover:bg-white/50">
-              <Heart className="w-4 h-4 text-green-600" />
-              <p className="text-sm font-semibold text-gray-700">
-                Our Story
-              </p>
-            </div>
-            
-            <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl lg:text-6xl">
-              About <span className="text-green-600">Pastures</span>
-            </h1>
-            
-            <p className="max-w-2xl mx-auto text-lg text-gray-600">
-              Connecting daily experiences with God's Word through thoughtful reflection and community.
+      {/* Hero Section */}
+      <MaxWidthWrapper className="pt-20 pb-12">
+        <div className="text-center space-y-6">
+          <div className="inline-flex items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white px-7 py-2 shadow-md backdrop-blur transition-all hover:border-gray-300 hover:bg-white/50">
+            <Heart className="w-4 h-4 text-green-600" />
+            <p className="text-sm font-semibold text-gray-700">
+              Our Story
             </p>
           </div>
-        </MaxWidthWrapper>
+          
+          <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl lg:text-6xl">
+            About <span className="text-green-600">Pastures</span>
+          </h1>
+          
+          <p className="max-w-2xl mx-auto text-lg text-gray-600">
+            Connecting daily experiences with God's Word through thoughtful reflection and community.
+          </p>
+        </div>
+      </MaxWidthWrapper>
+
+      {/* Story Section with Grainy Background */}
+      <div>
+        <div className='relative isolate'>
+          <div
+            aria-hidden="true"
+            className='pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80'>
+            <div style={{
+              clipPath: "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"
+            }} className='relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#a7f3d0] to-[#93c5fd] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]'
+            />
+          </div>
 
         {/* The Journey Section */}
         <MaxWidthWrapper className="pb-20">
@@ -103,7 +114,7 @@ export default function AboutPage() {
                     
                     <p className="text-gray-600 leading-relaxed">
                       This technology enables a <strong className="text-gray-800">holistic spiritual ecosystem</strong> 
-                      that unifies three critical domains: our daily experiences, God's Word, and prayer life - 
+                       that unifies three critical domains: our daily experiences, God's Word, and prayer life - 
                       making spiritual growth both intuitive and sustainable.
                     </p>
                     
@@ -148,11 +159,21 @@ export default function AboutPage() {
               </div>
               <p className="text-lg leading-relaxed max-w-3xl mx-auto">
                 A world where Christians seamlessly integrate their spiritual disciplines into every facet of life, 
-                nurturing a resilient, reflective, and vibrant faith in an increasingly digital age.
+                nurturing a resiliant & vibrant faith in an increasingly digital age - for the glory of Jesus Christ.
               </p>
             </div>
           </div>
         </MaxWidthWrapper>
+
+          <div
+            aria-hidden="true"
+            className='pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80'>
+            <div style={{
+              clipPath: "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"
+            }} className='relative left-[calc(50%-13rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#c084fc] to-[#86efac] opacity-15 sm:left-[calc(50%-36rem)] sm:w-[72.1875rem]'
+            />
+          </div>
+        </div>
       </div>
 
       {/* Call to Action */}
