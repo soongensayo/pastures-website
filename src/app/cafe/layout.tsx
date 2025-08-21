@@ -5,7 +5,7 @@ import '../globals.css'
 import Providers from '@/components/Providers'
 
 const inter = Inter({ subsets: ['latin'] })
-const playfair = Playfair_Display({ subsets: ['latin'], weight: ['300', '400', '500', '600'] })
+const playfair = Playfair_Display({ subsets: ['latin'], weight: ['400', '500', '600'] })
 
 export const metadata: Metadata = {
   title: 'Cafe - A quiet space for meaningful conversations',
