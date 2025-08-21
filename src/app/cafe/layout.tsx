@@ -1,10 +1,11 @@
 import { cn } from '@/lib/utils'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Playfair_Display } from 'next/font/google'
 import '../globals.css'
 import Providers from '@/components/Providers'
 
 const inter = Inter({ subsets: ['latin'] })
+const playfair = Playfair_Display({ subsets: ['latin'], weight: ['300', '400', '500', '600'] })
 
 export const metadata: Metadata = {
   title: 'Cafe - A quiet space for meaningful conversations',
@@ -23,7 +24,8 @@ export default function CafeLayout({
           className={cn(
             'min-h-screen font-sans antialiased',
             inter.className
-          )}>
+          )}
+          style={{ '--font-playfair': playfair.style.fontFamily } as React.CSSProperties}>
           {children}
         </body>
       </Providers>
