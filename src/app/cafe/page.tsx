@@ -44,7 +44,7 @@ export default function CafePage() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <div className="relative w-full h-full">
-          {galleryImages.map((image, index) => (
+          {isHydrated && galleryImages.map((image, index) => (
             <Image
               key={image}
               src={image}
@@ -86,45 +86,53 @@ export default function CafePage() {
               </div>
             </div>
 
-            {/* Hero Image */}
-            <div className={`mb-16 md:mb-20 transition-all duration-1500 delay-300 ease-out ${
+            {/* Video Reel Section */}
+            <div className={`mb-20 md:mb-28 transition-all duration-1500 delay-300 ease-out ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
             }`}>
-              <div className="max-w-4xl mx-auto">
-                <div className="relative aspect-[16/10] overflow-hidden rounded-3xl shadow-2xl group">
-                  <Image
-                    src={heroImage}
-                    alt="Agape Cafe setup - cozy atmosphere with beautiful lighting"
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out"
-                    priority
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
+              <div className="max-w-5xl mx-auto">
+                {/* Video Title */}
+                <div className="text-center mb-8">
+                  
+                  <div className="w-20 h-px bg-gradient-to-r from-transparent via-amber-400 to-transparent mx-auto"></div>
+                </div>
+                
+                {/* Video Container */}
+                <div className="relative group">
+                  {/* Video Background Glow */}
+                  <div className="absolute -inset-4 bg-gradient-to-r from-amber-400/20 via-orange-400/20 to-amber-400/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-1000"></div>
+                  
+                  {/* Main Video */}
+                  <div className="relative aspect-[9/16] md:aspect-video max-w-4xl mx-auto overflow-hidden rounded-3xl shadow-2xl border border-white/20 group-hover:shadow-3xl transition-all duration-700">
+                    <video
+                      className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-1000 ease-out"
+                      autoPlay
+                      loop
+                      muted={false}
+                      playsInline
+                      controls={false}
+                      preload="auto"
+                    >
+                      <source src="/cafe-vids/cafe_reel.MOV" type="video/mp4" />
+                      <source src="/cafe-vids/cafe_reel.MOV" type="video/quicktime" />
+                      Your browser does not support the video tag.
+                    </video>
+                    
+                    {/* Subtle Overlay for Modern Feel */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent pointer-events-none"></div>
+                    
+                    {/* Floating Play Indicator */}
+                    <div className="absolute top-6 right-6 bg-white/10 backdrop-blur-md rounded-full p-3 border border-white/20">
+                      <div className="w-3 h-3 bg-white rounded-full animate-pulse"></div>
+                    </div>
+                  </div>
+                  
                 </div>
               </div>
             </div>
 
-            {/* Gallery Images */}
-            <div className={`mb-16 md:mb-24 transition-all duration-1500 delay-500 ease-out ${
-              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
-            }`}>
-              <div className="grid grid-cols-3 gap-4 md:gap-6 max-w-3xl mx-auto">
-                {galleryImages.map((image, index) => (
-                  <div key={image} className="group relative aspect-square overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-500">
-                    <Image
-                      src={image}
-                      alt={`Cafe photo ${index + 1}`}
-                      fill
-                      className="object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
-                    />
-                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300"></div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
             {/* Main Content Card */}
-            <div className={`transition-all duration-1500 delay-700 ease-out ${
+            <div className={`transition-all duration-1500 delay-500 ease-out ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
             }`}>
               <div className="bg-white/70 backdrop-blur-xl rounded-3xl p-8 md:p-12 lg:p-16 shadow-2xl border border-white/30 max-w-4xl mx-auto">
@@ -145,21 +153,14 @@ export default function CafePage() {
                   <div className="text-stone-600 mb-4 text-lg">
                     currently brewing:
                   </div>
-                  <div className="h-12 flex items-center justify-center">
-                    {isHydrated ? (
-                      <span 
-                        key={currentDrink}
-                        className="text-3xl md:text-4xl font-light text-amber-700 transition-all duration-500"
-                        style={{ fontFamily: 'var(--font-playfair)' }}
-                      >
-                        {drinks[currentDrink]}
-                      </span>
-                    ) : (
-                      <span className="text-3xl md:text-4xl font-light text-amber-700" style={{ fontFamily: 'var(--font-playfair)' }}>
-                        {drinks[0]}
-                      </span>
-                    )}
-                  </div>
+                                <div className="h-12 flex items-center justify-center">
+                <span 
+                  className="text-3xl md:text-4xl font-light text-amber-700 transition-all duration-500"
+                  style={{ fontFamily: 'var(--font-playfair)' }}
+                >
+                  {isHydrated ? drinks[currentDrink] : drinks[0]}
+                </span>
+              </div>
                 </div>
 
                 {/* Conditions */}
@@ -201,6 +202,56 @@ export default function CafePage() {
                   </p>
                 </div>
 
+              </div>
+            </div>
+
+            {/* Gallery Images */}
+            <div className={`mb-16 md:mb-24 transition-all duration-1500 delay-700 ease-out ${
+              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
+            }`}>
+              <div className="text-center mb-8">
+                
+                <div className="w-16 h-px bg-gradient-to-r from-transparent via-stone-300 to-transparent mx-auto"></div>
+              </div>
+              <div className="grid grid-cols-3 gap-4 md:gap-6 max-w-3xl mx-auto">
+                {galleryImages.map((image, index) => (
+                  <div key={image} className="group relative aspect-square overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-500">
+                    <Image
+                      src={image}
+                      alt={`Cafe photo ${index + 1}`}
+                      fill
+                      className="object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
+                    />
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300"></div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Hero Image */}
+            <div className={`mb-16 md:mb-20 transition-all duration-1500 delay-800 ease-out ${
+              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
+            }`}>
+              <div className="max-w-4xl mx-auto">
+                <div className="text-center mb-8">
+                  <h3 
+                    className="text-2xl md:text-3xl font-light text-stone-700 mb-4"
+                    style={{ fontFamily: 'var(--font-playfair)' }}
+                  >
+                    the space
+                  </h3>
+                  <div className="w-16 h-px bg-gradient-to-r from-transparent via-stone-300 to-transparent mx-auto"></div>
+                </div>
+                <div className="relative aspect-[16/10] overflow-hidden rounded-3xl shadow-2xl group">
+                  <Image
+                    src={heroImage}
+                    alt="Agape Cafe setup - cozy atmosphere with beautiful lighting"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out"
+                    priority
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
+                </div>
               </div>
             </div>
 

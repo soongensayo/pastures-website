@@ -1,26 +1,21 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
-    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/cafe/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/cafe/page.js"
-    ],
     "/cafe/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/cafe/layout.css",
       "static/chunks/app/cafe/layout.js"
+    ],
+    "/cafe/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/cafe/page.js"
     ]
   }
 }
