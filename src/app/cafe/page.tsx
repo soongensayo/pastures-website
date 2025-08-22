@@ -11,10 +11,11 @@ export default function CafePage() {
   
   const drinks = ['iced matcha', 'strawberry matcha latte']
   
-  const cafeImages = [
+  const heroImage = '/cafe-pics/setup.JPG'
+  
+  const galleryImages = [
     '/cafe-pics/IMG_0540.JPG',
-    '/cafe-pics/IMG_0544.JPG', 
-    '/cafe-pics/setup.JPG',
+    '/cafe-pics/IMG_0544.JPG',
     '/cafe-pics/small smiski.JPG'
   ]
   
@@ -27,9 +28,9 @@ export default function CafePage() {
       setCurrentDrink((prev) => (prev + 1) % drinks.length)
     }, 3000)
     
-    // Cycle through images slowly
+    // Cycle through gallery images slowly
     const imageInterval = setInterval(() => {
-      setCurrentImageIndex((prev) => (prev + 1) % cafeImages.length)
+      setCurrentImageIndex((prev) => (prev + 1) % galleryImages.length)
     }, 5000)
     
     return () => {
@@ -43,20 +44,20 @@ export default function CafePage() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <div className="relative w-full h-full">
-          {cafeImages.map((image, index) => (
+          {galleryImages.map((image, index) => (
             <Image
               key={image}
               src={image}
               alt="Cafe atmosphere"
               fill
               className={`object-cover transition-opacity duration-2000 ease-in-out ${
-                index === currentImageIndex ? 'opacity-20' : 'opacity-0'
+                index === currentImageIndex ? 'opacity-15' : 'opacity-0'
               }`}
               priority={index === 0}
             />
           ))}
         </div>
-        <div className="absolute inset-0 bg-gradient-to-br from-white/90 via-white/85 to-white/80"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-white/92 via-white/88 to-white/85"></div>
       </div>
 
       {/* Main Content */}
@@ -85,18 +86,36 @@ export default function CafePage() {
               </div>
             </div>
 
-            {/* Image Gallery */}
-            <div className={`mb-16 md:mb-24 transition-all duration-1500 delay-300 ease-out ${
+            {/* Hero Image */}
+            <div className={`mb-16 md:mb-20 transition-all duration-1500 delay-300 ease-out ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
             }`}>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 max-w-5xl mx-auto">
-                {cafeImages.map((image, index) => (
+              <div className="max-w-4xl mx-auto">
+                <div className="relative aspect-[16/10] overflow-hidden rounded-3xl shadow-2xl group">
+                  <Image
+                    src={heroImage}
+                    alt="Agape Cafe setup - cozy atmosphere with beautiful lighting"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out"
+                    priority
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
+                </div>
+              </div>
+            </div>
+
+            {/* Gallery Images */}
+            <div className={`mb-16 md:mb-24 transition-all duration-1500 delay-500 ease-out ${
+              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
+            }`}>
+              <div className="grid grid-cols-3 gap-4 md:gap-6 max-w-3xl mx-auto">
+                {galleryImages.map((image, index) => (
                   <div key={image} className="group relative aspect-square overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-500">
                     <Image
                       src={image}
                       alt={`Cafe photo ${index + 1}`}
                       fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                      className="object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
                     />
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300"></div>
                   </div>
@@ -105,7 +124,7 @@ export default function CafePage() {
             </div>
 
             {/* Main Content Card */}
-            <div className={`transition-all duration-1500 delay-500 ease-out ${
+            <div className={`transition-all duration-1500 delay-700 ease-out ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
             }`}>
               <div className="bg-white/70 backdrop-blur-xl rounded-3xl p-8 md:p-12 lg:p-16 shadow-2xl border border-white/30 max-w-4xl mx-auto">
@@ -186,7 +205,7 @@ export default function CafePage() {
             </div>
 
             {/* Footer */}
-            <div className={`text-center mt-16 transition-all duration-1500 delay-700 ease-out ${
+            <div className={`text-center mt-16 transition-all duration-1500 delay-900 ease-out ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
             }`}>
               <p className="text-stone-500 font-light text-lg">
