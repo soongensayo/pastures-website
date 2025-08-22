@@ -1,3 +1,5 @@
 {
-  "/cafe/page": "app/cafe/page.js"
+  "/page": "app/page.js",
+  "/cafe/page": "app/cafe/page.js",
+  "/cafe/session/page": "app/cafe/session/page.js"
 }
