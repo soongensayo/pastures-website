@@ -38,9 +38,6 @@ export default function Home() {
       </Head>
 
       <MaxWidthWrapper className="mb-12 mt-28 sm:mt-25 flex flex-col items-center justify-center text-center">
-        <div className='mb-6'>
-          <AppStoreButton />
-        </div>
         <h1 className='max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl'>
           Connect with your thoughts, experiences and <span className='text-blue-600'> the Word of God</span> as you graze life&apos;s <span className='text-green-700'>pastures.</span>
         </h1>
@@ -48,6 +45,10 @@ export default function Home() {
           Pastures will be a one-stop solution for journalling, learning, and growing. A super-app for your faith.
         </p>
 
+        <div className='mt-8 mb-6'>
+          <AppStoreButton />
+        </div>
+        
       </MaxWidthWrapper>
 
       {/* value proposition section*/}
