@@ -15,11 +15,12 @@ export default function FAQPage() {
     },
     {
       question: "Is Pastures free to use?",
-      answer: "Yes, Pastures is free to use. We're currently in beta testing phase. Details about pricing will be shared as we approach our official launch."
+      answer: "Pastures is free to use, with AI-powered features such as auto-categorization of journal entries, daily prompts and more. There is a premium version available for 2.98 SGD per month (price varies by region), and all users will receive a 2-month free premium trial."
     },
+
     {
-      question: "How can I join the beta testing?",
-      answer: "You can sign up for beta testing through our main page or contact us directly. We'll reach out when spots become available."
+      question: "What does the premium version offer?",
+      answer: "The premium version offers access to more AI-powered features, such as Learning Assistant for intent-based search of learnings, and Journeys."
     },
     {
       question: "What makes Pastures different from other devotional apps?",

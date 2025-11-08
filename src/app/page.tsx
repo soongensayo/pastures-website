@@ -12,6 +12,7 @@ import CapabilitiesSection from '@/components/CapabilitiesSection'
 import Entries from '@/components/Entries';
 import Journeys from '@/components/Journeys';
 import DailyPrompt from '@/components/DailyPrompt';
+import AppStoreButton from '@/components/AppStoreButton';
 
 
 export default function Home() {
@@ -37,10 +38,8 @@ export default function Home() {
       </Head>
 
       <MaxWidthWrapper className="mb-12 mt-28 sm:mt-25 flex flex-col items-center justify-center text-center">
-        <div className='max-auto mb-4 flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white px-7 py-2 shadow-md backdrop-blur transition-all hover:border-gray-300 hover:bg-white/50'>
-          <p className='text-sm font-semibold text-gray-700'>
-            Beta testing is now available!
-          </p>
+        <div className='mb-6'>
+          <AppStoreButton />
         </div>
         <h1 className='max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl'>
           Connect with your thoughts, experiences and <span className='text-blue-600'> the Word of God</span> as you graze life&apos;s <span className='text-green-700'>pastures.</span>

@@ -6,6 +6,7 @@ import { buttonVariants } from "./ui/button"
 import { ArrowRight, Menu } from "lucide-react"
 import Image from 'next/image';
 import { useState, useRef, useEffect } from 'react';
+import AppStoreButton from './AppStoreButton';
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -46,11 +47,7 @@ const Navbar = () => {
 
                     <div className='flex items-center space-x-4'>
                         <>
-                            <Link className={buttonVariants({
-                                size: 'sm',
-                            })} href='test' target='_blank'>
-                                Sign up for beta testing <ArrowRight className='ml-1.5 h-5 w-5' />
-                            </Link>
+                            <AppStoreButton variant="compact" />
                             
                             {/* Menu Dropdown */}
                             <div className="relative" ref={menuRef}>
