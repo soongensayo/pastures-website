@@ -42,7 +42,7 @@ export default function Home() {
           Connect with your thoughts, experiences and <span className='text-blue-600'> the Word of God</span> as you graze life&apos;s <span className='text-green-700'>pastures.</span>
         </h1>
         <p className='mt-5 max-w-prose text-zinc-700 sm:text-lg'>
-          Pastures will be a one-stop solution for journalling, learning, and growing. A super-app for your faith.
+          Pastures is a one-stop solution for journalling, learning, and growing. A super-app for your faith.
         </p>
 
         <div className='mt-8 mb-6'>
@@ -101,7 +101,7 @@ export default function Home() {
             </h2>
             <p className='mt-4 text-lg text-gray-600'>
               Keeping track of your life in this digital age will never been easier than with Pastures.
-              There is simply too much that Pastures will be doing, but here are just 3 features as a little sneak peak:
+              There is a lot that Pastures does, but here are just 3 features as a little sneak peak:
             </p>
           </div>
         </div>
