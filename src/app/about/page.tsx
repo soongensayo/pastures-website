@@ -113,14 +113,13 @@ export default function AboutPage() {
                     </p>
                     
                     <p className="text-gray-600 leading-relaxed">
-                      This technology enables a <strong className="text-gray-800">holistic spiritual ecosystem</strong> 
-                       that unifies three critical domains: our daily experiences, God's Word, and prayer life - 
-                      making spiritual growth both intuitive and sustainable.
+                      This technology enables a <strong className="text-gray-800">holistic spiritual ecosystem </strong> 
+                      that unifies three critical domains: our daily experiences, God's Word, and prayer life.
                     </p>
                     
                     <p className="text-gray-600 leading-relaxed">
                       By engineering technology for God's glory, we can finally have tools that make it easy to 
-                      love God and love people in our digital age, turning information abundance into spiritual abundance.
+                      love God and love people in our digital age, turning information abundance into spiritual abundance - with the help of the Holy Spirit!
                     </p>
                   </div>
                 </div>
