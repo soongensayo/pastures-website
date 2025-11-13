@@ -128,7 +128,7 @@ export default function ContactPage() {
                   Let's Start a Conversation
                 </h2>
                 <p className="text-gray-600 text-lg">
-                  Whether you're interested in beta testing, have feedback, or want to learn more about our mission, 
+                  Whether you have feedback, concerns,or want to learn more about our mission, 
                   we're here to listen and connect.
                 </p>
               </div>

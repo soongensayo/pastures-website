@@ -157,28 +157,14 @@ export default function PrivacyPolicy() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">10. Children's Privacy</h2>
-            <p className="text-gray-700">
-              Pastures is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If you believe we have collected information from a child under 13, please contact us immediately.
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">11. International Users</h2>
-            <p className="text-gray-700">
-              If you are accessing Pastures from outside the United States, please be aware that your information may be transferred to, stored, and processed in the United States where our servers are located and our company operates.
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">12. Changes to This Privacy Policy</h2>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-4">10. Changes to This Privacy Policy</h2>
             <p className="text-gray-700">
               We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date. We encourage you to review this Privacy Policy periodically for any changes.
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">13. Contact Us</h2>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-4">11. Contact Us</h2>
             <p className="text-gray-700 mb-4">
               If you have any questions about this Privacy Policy or our privacy practices, please contact us:
             </p>
@@ -186,7 +172,6 @@ export default function PrivacyPolicy() {
               <p className="text-gray-700">
                 <strong>Email:</strong> soongen@pastures.app<br/>
                 <strong>Website:</strong> pastures.app<br/>
-                <strong>Address:</strong> [Your business address]
               </p>
             </div>
           </section>

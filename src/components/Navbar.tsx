@@ -30,6 +30,7 @@ const Navbar = () => {
         { href: '/contact', label: 'Contact' },
         { href: '/about', label: 'About' },
         { href: '/faq', label: 'FAQ' },
+        { href: '/blog', label: 'Blog' },
     ]
 
     return (
