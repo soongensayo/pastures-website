@@ -219,6 +219,75 @@ Experience the difference in how you understand God's work in your life!
 
 *Available in Pastures Premium. Start your 2-month free trial today.*
     `
+  },
+  {
+    slug: 'building-pastures-insights-nus-students',
+    title: 'Building Pastures: User Group Session (Nov 2025)',
+    excerpt: 'We sat down with the NUS Business and Computing Christian Fellowship to discuss faith, technology, and the future of Christian journaling. Here is what we learned.',
+    author: 'Pastures Team',
+    date: '2025-11-18',
+    readTime: '5 min read',
+    category: 'announcement',
+    tags: ['user research', 'building in public', 'community', 'faith and tech'],
+    content: `
+# Building Pastures: User Group Session (Nov 2025)
+
+Today was a milestone for **Pastures**. We had the privilege of sitting down with 8 members of the Business and Computing Christian Fellowship at the National University of Singapore (NUS).
+
+We didn't just look at screens; we looked at hearts. We discussed how young Christians are currently connecting with God, their struggles with consistency, and how technology—specifically AI—can bridge that gap without replacing the Holy Spirit.
+
+Here is what we learned, what we got right, and the hard questions we need to answer.
+
+## 1. The State of Christian Journaling: "Seasons and Scraps"
+
+One of the biggest takeaways from the session is that spiritual documentation is rarely linear. When we asked the group how they currently journal or take sermon notes, the answers were incredibly diverse.
+
+There is no "standard" user. We found that journaling often happens in:
+
+* **Phases and Seasons:** Many students noted they only journal during "unfamiliar cases" or when "things get tough." It’s often ad-hoc rather than a daily discipline.
+* **Digital Fragmentation:** The tools are everywhere. Some use physical books (one student carries a specific book everywhere), others use Google Docs (one entry per year), Excel sheets for verse tracking, and even private Telegram channels to mark spiritual milestones.
+* **The "Write and Forget" Problem:** A common pain point was writing things down but never reading them again. As one student put it, they "take stock" but struggle to retrieve those insights later.
+
+This validates our core vision: **Reflection helps us see God's work in our lives**. We are building Pastures to solve this fragmentation, turning scattered notes into a cohesive spiritual journey.
+
+## 2. Where AI Shines
+
+We introduced the group to the core pillars of Pastures: **Learnings, Entries, and Prayer**.
+
+The feedback on the **Daily Prompt** feature was particularly encouraging. Students liked how the app personalized the experience, offering a starting point for those who stare at a blank page. There was genuine excitement about the concept of AI recommending verses based on their current emotional state or recent entries.
+
+This aligns with our roadmap to create a "Christian superapp" that helps believers grow, using technology to curate scripture that speaks directly to their current season of life.
+
+## 3. The Hard Truths: UX Friction & AI Anxiety
+
+However, a user feedback session isn't useful if it’s just compliments. The students were honest about where we need to improve, and we are grateful for that.
+
+### The User Experience (UX) Hurdles
+* **Navigation:** New users struggled to find the "New Entry" button during the onboarding phase.
+* **Terminology:** There was confusion between "View" and "Plant." We need to make our language intuitive—separation between *inputting* (Planting) and *reflecting* (Viewing/Grazing) needs to be clearer.
+* **Categorization:** The category review screen was overwhelming. We are looking into simplifying this to make tagging learnings easier.
+
+### The Theological Elephant in the Room
+The most critical feedback, however, wasn't about buttons—it was about **Trust**. Several students raised valid concerns about AI in a faith context:
+
+> "What if it hallucinates?"
+> "What if it twists the Word of God in its interpretation?"
+
+These are the exact questions we *should* be asking. As we build features like the Learning Assistant and Semantic Search, our priority is not just "cool tech," but **biblical integrity**.
+
+## 4. The Road Ahead
+
+We are taking this feedback back to the lab immediately. Here is what is coming next based on today's session:
+
+1.  **Guardrails for Truth:** We are doubling down on our prompt engineering to ensure the AI points users *back* to Scripture rather than interpreting it loosely.
+2.  **Privacy First:** We heard you on data isolation. We are exploring ways to keep sensitive data local and ensure your spiritual diary remains between you and God. Meanwhile, rest assured that your data is encrypted and stored securely, and that your content will never be shared, sold, or read by anyone other than you.
+
+## Final Thoughts
+
+Our vision is based on **Psalm 23**: *"He makes me lie down in green pastures, he leads me beside quiet waters, he refreshes my soul."*
+
+Technology is just the vessel; the refreshment comes from Him. We are building Pastures not to replace your Bible, but to help you engage with it more deeply.
+    `
   }
 ];
 
