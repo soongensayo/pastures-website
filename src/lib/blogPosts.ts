@@ -234,6 +234,8 @@ Experience the difference in how you understand God's work in your life!
 
 Today was a milestone for **Pastures**. We had the privilege of sitting down with 8 members of the Business and Computing Christian Fellowship at the National University of Singapore (NUS).
 
+<img src="/blog-assets/user-group-18-nov.png" alt="User group session with NUS students" class="w-full rounded-lg shadow-lg my-8" />
+
 We didn't just look at screens; we looked at hearts. We discussed how young Christians are currently connecting with God, their struggles with consistency, and how technology (specifically AI) can bridge that gap without replacing the Holy Spirit.
 
 Here is what we learned, what we got right, and the hard questions we need to answer.
