@@ -34,9 +34,7 @@ export const blogPosts: BlogPost[] = [
     category: 'announcement',
     tags: ['introduction', 'getting started'],
     content: `
-# Welcome to the Pastures Blog
-
-We're excited to launch our blog - a space dedicated to helping you grow deeper in your faith through thoughtful reflection, biblical insights, and practical guidance.
+We're excited to launch our blog!
 
 ## What You'll Find Here
 
@@ -78,8 +76,6 @@ Stay tuned for regular posts that will help you make the most of your faith jour
     category: 'journaling',
     tags: ['journaling', 'spiritual disciplines', 'reflection'],
     content: `
-# Why Journaling Matters for Christians
-
 Journaling isn't just a modern trend - it's a practice deeply rooted in Scripture and Christian tradition. Let's explore why this spiritual discipline can transform your relationship with God.
 
 ## Biblical Foundation
@@ -144,8 +140,6 @@ Will you start today?
     category: 'features',
     tags: ['AI', 'journeys', 'features', 'categorization'],
     content: `
-# Understanding AI-Powered Journeys in Pastures
-
 One of Pastures' most powerful features is the automatic organization of your journal entries into meaningful "Journeys" - distinct tracks of your spiritual and relational life.
 
 ## What Are Journeys?
@@ -230,8 +224,6 @@ Experience the difference in how you understand God's work in your life!
     category: 'announcement',
     tags: ['user research', 'building in public', 'community', 'faith and tech'],
     content: `
-# Building Pastures: User Group Session (Nov 2025)
-
 Today was a milestone for **Pastures**. We had the privilege of sitting down with 8 members of the Business and Computing Christian Fellowship at the National University of Singapore (NUS).
 
 <img src="/blog-assets/user-group-18-nov.png" alt="User group session with NUS students" class="w-full rounded-lg shadow-lg my-8" />
@@ -301,8 +293,6 @@ Technology is just the vessel; the refreshment comes from Him. We are building P
     category: 'features',
     tags: ['Bible', 'new feature', 'learning', 'AI'],
     content: `
-# Introducing Learning Plans: A New Way to Engage the Word
-
 We've all felt the friction.
 
 Maybe you started a "Read the Bible in a Year" plan with enthusiasm, only to miss a few days and feel the crushing weight of "falling behind." Or perhaps you are just trying to explore the Bible on your own, but every time you open it, you feel paralyzed—unsure where to start, overwhelmed by the complexity, or simply feeling like you're just going through the motions.
