@@ -354,7 +354,7 @@ We recognize that using AI in a spiritual context is very new territory. However
 Currently, the Assistant is engineered to provide concise, biblically-grounded answers that respect the immediate context of the passage. It is designed to help explain the author's flow of thought and democratize access to biblical knowledge.
 
 **A few important caveats and future plans:**
-* **Work in Progress:** We have ambitious plans to enhance the AI responses. We are working toward integrating specific Bible study tools, methods for spaced repetition to aid memory, and deeper theological frameworks.
+* **Work in Progress:** We have ambitious plans to enhance the AI responses. We are working toward integrating specific Bible study tools, templated questions, and deeper theological frameworks.
 * **Education, Not Instruction:** The AI is a tool to educate, not a spiritual authority to instruct. It is not a replacement for the Holy Spirit. We expect and encourage users to read the Word for themselves and let God convict their hearts.
 * **Your Feedback Matters:** We know there are valid concerns about AI interpretation. We are committed to improvement and would love to hear your feedback as you use the tool.
 
