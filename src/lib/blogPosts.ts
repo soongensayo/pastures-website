@@ -312,7 +312,7 @@ We believe going into the Word should be intentional and deliberate—never a ch
 ## Enter Learning Plans
 
 We have reimagined Bible engagement to be **Session-Based** rather than Schedule-Based. We are launching this with our new **Bible Book Plans**.
-<img src="/blog-assets/chooselearningplans.png" alt="Pastures AI" class="w-1/2 mx-auto rounded-lg shadow-lg my-8" />
+<img src="/blog-assets/chooselearningplans.png" alt="Choosing Learning Plans" class="w-1/2 mx-auto rounded-lg shadow-lg my-8" />
 
 ### How It Works
 
@@ -323,8 +323,8 @@ There are no "overdue" notifications. Each time you choose to enter the plan, a 
 As you read, you aren't just scrolling. We've introduced an intelligent action menu that allows you to:
 * **Write Notes:** Jot down immediate reflections.
 <img src="/blog-assets/learningplannotes.png" alt="Notes" class="w-1/2 mx-auto rounded-lg shadow-lg my-8" />
-* **Ask Questions:** Unclear about a cultural reference? Confused by a word? Ask the Pastures AI right there in the text.
-<img src="/blog-assets/learningplans-blogpost-1.png" alt="Pastures AI" class="w-1/2 mx-auto rounded-lg shadow-lg my-8" />
+* **Ask Questions:** Unclear about a cultural reference? Confused by a word? Ask Pastures' Learning Assistant right there in the text.
+<img src="/blog-assets/learningplans-blogpost-1.png" alt="Pastures' Learning Assistant" class="w-1/2 mx-auto rounded-lg shadow-lg my-8" />
 
 **3. Checkpoints & Learnings**
 Because the Word of God is "alive and active, sharper than any double-edged sword" (Hebrews 4:12), we believe every session should result in a takeaway, no matter how big or small.
@@ -339,18 +339,23 @@ In the digital age, it is easy to treat the Bible like a jar of fortune cookies�
 
 We prioritized **Book Plans** because:
 
-* **To Know Who God Really Is:** When we read Scripture in disjointed fragments, we risk creating a caricature of God based on our own preferences. Reading whole books reveals His character in high fidelity—His holiness, His justice, and His relentless love. It deepens our appreciation and awe for Him in a way that isolated verses cannot.
+* **To Know Who God Really Is:** When we read Scripture in disjointed fragments, we risk creating a caricature of God based on our own preferences. Reading whole books reveals His character in its fullness—His holiness, His justice, and His relentless love. It deepens our appreciation and awe for Him in a way that isolated verses cannot.
 * **To Live as Followers of Jesus:** Context isn't just academic; it's practical. Understanding the full counsel of God's Word bridges the gap between ancient text and modern discipleship. It shows us how to embody the teachings of Jesus in our daily lives, moving us from merely "knowing the rules" to understanding the heart of the Father.
 * **Context Creates Clarity:** To truly understand a verse, you must understand the paragraph, the chapter, and the book it resides in. This honors the author's intent and helps us trace the beautiful narrative arc of redemption throughout history.
+
 ## A Note on AI & Theology
 
 With the introduction of the "Ask Question" feature, we want to be transparent about our roadmap and philosophy.
 
-Currently, Pastures AI is engineered to provide concise, biblically-grounded answers that respect the immediate context of the passage. It is designed to help explain the author's flow of thought and democratize access to biblical knowledge that might otherwise be locked in dense academic commentaries.
+We recognize that using AI in a spiritual context is very new territory. However, we believe it is a powerful piece of technology that, when approached with wisdom, can be engineered for His glory—helping to unlock understanding and accessibility.
 
-**However, a few important caveats:**
+**That said, we want to be clear: both the learning flows and the intelligence behind Pastures' Learning Assistant are currently in their infant stages.**
+
+Currently, the Assistant is engineered to provide concise, biblically-grounded answers that respect the immediate context of the passage. It is designed to help explain the author's flow of thought and democratize access to biblical knowledge.
+
+**A few important caveats and future plans:**
+* **Work in Progress:** We have ambitious plans to enhance the AI responses. We are working toward integrating specific Bible study tools, methods for spaced repetition to aid memory, and deeper theological frameworks.
 * **Education, Not Instruction:** The AI is a tool to educate, not a spiritual authority to instruct. It is not a replacement for the Holy Spirit. We expect and encourage users to read the Word for themselves and let God convict their hearts.
-* **Work in Progress:** We are actively working on a systematic pedagogy to ensure even higher quality responses referenced from trusted scholarly sources.
 * **Your Feedback Matters:** We know there are valid concerns about AI interpretation. We are committed to improvement and would love to hear your feedback as you use the tool.
 
 ## What's Next?
@@ -363,7 +368,7 @@ Update your app today to start your first Session!
 
 *"Thy word is a lamp unto my feet, and a light unto my path." - Psalm 119:105*
     `
-  },
+},
 ];
 
 // Helper functions
