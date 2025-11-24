@@ -29,7 +29,7 @@ export const blogPosts: BlogPost[] = [
     title: 'Welcome to the Pastures Blog',
     excerpt: 'Discover how Pastures can transform your spiritual journey through intelligent journaling and AI-powered insights.',
     author: 'Pastures Team',
-    date: '2024-01-15',
+    date: '2025-11-01',
     readTime: '5 min read',
     category: 'announcement',
     tags: ['introduction', 'getting started'],
@@ -73,7 +73,7 @@ Stay tuned for regular posts that will help you make the most of your faith jour
     title: 'Why Journaling Matters for Christians',
     excerpt: 'Explore the biblical foundation and practical benefits of keeping a spiritual journal in your walk with God.',
     author: 'Pastures Team',
-    date: '2024-01-20',
+    date: '2025-11-02',
     readTime: '4 min read',
     category: 'journaling',
     tags: ['journaling', 'spiritual disciplines', 'reflection'],
@@ -139,7 +139,7 @@ Will you start today?
     title: 'Understanding AI-Powered Journeys in Pastures',
     excerpt: 'Learn how Pastures automatically categorizes your journal entries into meaningful life journeys using advanced AI.',
     author: 'Pastures Team',
-    date: '2024-01-25',
+    date: '2025-11-02',
     readTime: '6 min read',
     category: 'features',
     tags: ['AI', 'journeys', 'features', 'categorization'],
@@ -290,7 +290,90 @@ Our vision is based on **Psalm 23**: *"He makes me lie down in green pastures, h
 
 Technology is just the vessel; the refreshment comes from Him. We are building Pastures not to replace your Bible, but to help you engage with it more deeply.
     `
-  }
+  },
+  {
+    slug: 'introducing-learning-plans',
+    title: 'Introducing Learning Plans: A New Way to Engage the Word',
+    excerpt: 'Say goodbye to the guilt of falling behind on Bible schedules. Discover a session-based approach designed for intentionality and deep learning.',
+    author: 'Pastures Team',
+    date: '2025-11-24',
+    readTime: '6 min read',
+    category: 'features',
+    tags: ['Bible', 'new feature', 'learning', 'AI'],
+    content: `
+# Introducing Learning Plans: A New Way to Engage the Word
+
+We've all felt the friction.
+
+Maybe you started a "Read the Bible in a Year" plan with enthusiasm, only to miss a few days and feel the crushing weight of "falling behind." Or perhaps you are just trying to explore the Bible on your own, but every time you open it, you feel paralyzed—unsure where to start, overwhelmed by the complexity, or simply feeling like you're just going through the motions.
+
+Today, we are changing that dynamic with the launch of **Learning Plans** (accessible via the "Explore" button in the "New Learning" screen).
+
+## The Problem: The "Checkbox" Mentality
+
+Current Bible plans often stipulate exactly which passage must be read on which specific day. While well-intentioned, this structure often leads to:
+1.  **Fatigue:** Rushing through verses just to say you did it.
+2.  **Guilt:** Feeling like a failure when you "fall behind."
+3.  **Passive Reading:** Scanning words without truly digesting them.
+4.  **Fragmentation:** Reading isolated verses ("verse of the day") without understanding what is actually happening in the text.
+
+We believe going into the Word should be intentional and deliberate—never a chore.
+
+## Enter Learning Plans
+
+We have reimagined Bible engagement to be **Session-Based** rather than Schedule-Based. We are launching this with our new **Bible Book Plans**.
+<img src="/blog-assets/chooselearningplans.png" alt="Pastures AI" class="w-1/2 mx-auto rounded-lg shadow-lg my-8" />
+
+### How It Works
+
+**1. You Set the Pace**
+There are no "overdue" notifications. Each time you choose to enter the plan, a new **Session** begins.
+
+**2. Intelligent Action Menu**
+As you read, you aren't just scrolling. We've introduced an intelligent action menu that allows you to:
+* **Write Notes:** Jot down immediate reflections.
+<img src="/blog-assets/learningplannotes.png" alt="Notes" class="w-1/2 mx-auto rounded-lg shadow-lg my-8" />
+* **Ask Questions:** Unclear about a cultural reference? Confused by a word? Ask the Pastures AI right there in the text.
+<img src="/blog-assets/learningplans-blogpost-1.png" alt="Pastures AI" class="w-1/2 mx-auto rounded-lg shadow-lg my-8" />
+
+**3. Checkpoints & Learnings**
+Because the Word of God is "alive and active, sharper than any double-edged sword" (Hebrews 4:12), we believe every session should result in a takeaway, no matter how big or small.
+* **The Checkpoint:** When you are done, simply mark your last read verse. We save your spot instantly.
+* **The Learning:** Your notes and the Q&A responses from that session are compiled and saved as a "Learning." You can review these later, effectively building your own commentary library over time.
+
+## Why We Designed It This Way: Context is King
+
+You might notice that we are launching strictly with **Bible Book Plans** first. This is intentional.
+
+In the digital age, it is easy to treat the Bible like a jar of fortune cookies—grabbing random verses that make us feel good while ignoring the verses around them. But to truly know God, we need to hear Him out fully.
+
+We prioritized **Book Plans** because:
+
+* **To Know Who God Really Is:** When we read Scripture in disjointed fragments, we risk creating a caricature of God based on our own preferences. Reading whole books reveals His character in high fidelity—His holiness, His justice, and His relentless love. It deepens our appreciation and awe for Him in a way that isolated verses cannot.
+* **To Live as Followers of Jesus:** Context isn't just academic; it's practical. Understanding the full counsel of God's Word bridges the gap between ancient text and modern discipleship. It shows us how to embody the teachings of Jesus in our daily lives, moving us from merely "knowing the rules" to understanding the heart of the Father.
+* **Context Creates Clarity:** To truly understand a verse, you must understand the paragraph, the chapter, and the book it resides in. This honors the author's intent and helps us trace the beautiful narrative arc of redemption throughout history.
+## A Note on AI & Theology
+
+With the introduction of the "Ask Question" feature, we want to be transparent about our roadmap and philosophy.
+
+Currently, Pastures AI is engineered to provide concise, biblically-grounded answers that respect the immediate context of the passage. It is designed to help explain the author's flow of thought and democratize access to biblical knowledge that might otherwise be locked in dense academic commentaries.
+
+**However, a few important caveats:**
+* **Education, Not Instruction:** The AI is a tool to educate, not a spiritual authority to instruct. It is not a replacement for the Holy Spirit. We expect and encourage users to read the Word for themselves and let God convict their hearts.
+* **Work in Progress:** We are actively working on a systematic pedagogy to ensure even higher quality responses referenced from trusted scholarly sources.
+* **Your Feedback Matters:** We know there are valid concerns about AI interpretation. We are committed to improvement and would love to hear your feedback as you use the tool.
+
+## What's Next?
+
+This is just the beginning for Learning Plans. We are exploring further integrations into other parts of the app to make your spiritual journey even more seamless.
+
+Update your app today to start your first Session!
+
+---
+
+*"Thy word is a lamp unto my feet, and a light unto my path." - Psalm 119:105*
+    `
+  },
 ];
 
 // Helper functions
