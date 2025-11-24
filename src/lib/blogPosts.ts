@@ -331,7 +331,7 @@ Because the Word of God is "alive and active, sharper than any double-edged swor
 * **The Checkpoint:** When you are done, simply mark your last read verse. We save your spot instantly.
 * **The Learning:** Your notes and the Q&A responses from that session are compiled and saved as a "Learning." You can review these later, effectively building your own commentary library over time.
 
-## Why We Designed It This Way: Context is King
+## Why We Designed It This Way: Context is Key
 
 You might notice that we are launching strictly with **Bible Book Plans** first. This is intentional.
 
