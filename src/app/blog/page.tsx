@@ -31,9 +31,6 @@ export default function BlogPage() {
             The Pastures <span className="text-green-600">Blog</span>
           </h1>
           
-          <p className="max-w-2xl mx-auto text-lg text-gray-600">
-            Discover insights on spiritual growth, journaling practices, and how to deepen your relationship with God in the digital age.
-          </p>
         </div>
 
         {/* Category Filter */}
