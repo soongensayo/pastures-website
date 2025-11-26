@@ -27,10 +27,10 @@ const Navbar = () => {
     }, [])
 
     const menuItems = [
-        { href: '/contact', label: 'Contact' },
+        { href: '/blog', label: 'Blog' },
         { href: '/about', label: 'About' },
         { href: '/faq', label: 'FAQ' },
-        { href: '/blog', label: 'Blog' },
+        { href: '/contact', label: 'Contact' },
     ]
 
     return (

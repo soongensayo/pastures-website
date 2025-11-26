@@ -111,7 +111,7 @@ export default function ContactPage() {
           </h1>
           
           <p className="max-w-2xl mx-auto text-lg text-gray-600">
-            Have questions about Pastures? Want to contribute, donate, invest, or pray for this mission? 
+            Have questions about Pastures? Want to partner, donate, invest, or pray for this mission? 
             We'd love to hear from you.
           </p>
         </div>
@@ -207,7 +207,6 @@ export default function ContactPage() {
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
                   >
                     <option value="">Select a topic...</option>
-                    <option value="Beta Testing Interest">Beta Testing Interest</option>
                     <option value="Contributing to Pastures">Contributing to Pastures</option>
                     <option value="Investment Opportunity">Investment Opportunity</option>
                     <option value="Partnership">Partnership</option>
