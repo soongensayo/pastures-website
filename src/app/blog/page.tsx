@@ -30,6 +30,9 @@ export default function BlogPage() {
           <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl lg:text-6xl">
             The Pastures <span className="text-green-600">Blog</span>
           </h1>
+          <p className="text-lg text-gray-600 mt-4 max-w-2xl mx-auto">
+            Behind the scenes of building Christ-centered tools for daily growth.
+          </p>
           
         </div>
 
