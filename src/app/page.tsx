@@ -1,41 +1,26 @@
-"use client";
-
-import { useEffect } from 'react'
 import MaxWidthWrapper from '@/components/MaxWidthWrapper'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Button, buttonVariants } from '@/components/ui/button'
-import { ArrowRight } from 'lucide-react'
-import VideoPlayerComponent from '../../player'
-import Head from 'next/head'
+import AppStoreButton from '@/components/AppStoreButton'
 import CapabilitiesSection from '@/components/CapabilitiesSection'
-import Entries from '@/components/Entries';
-import Journeys from '@/components/Journeys';
-import DailyPrompt from '@/components/DailyPrompt';
-import AppStoreButton from '@/components/AppStoreButton';
+import Entries from '@/components/Entries'
+import Journeys from '@/components/Journeys'
+import DailyPrompt from '@/components/DailyPrompt'
+import CalendlyWidget from '@/components/CalendlyWidget'
+import { Metadata } from 'next'
 
+export const metadata: Metadata = {
+  title: 'Pastures - Spiritual Growth & Journaling App',
+  description: 'Connect with your thoughts, experiences and the Word of God through AI-powered journaling and personalized devotionals.',
+  alternates: {
+    canonical: 'https://www.pastures.app',
+  },
+}
 
 export default function Home() {
-
-
-  useEffect(() => {
-    const script = document.createElement('script')
-    script.src = 'https://assets.calendly.com/assets/external/widget.js'
-    script.async = true
-    document.body.appendChild(script)
-
-    return () => {
-      document.body.removeChild(script)
-    }
-  }, [])
-
   return (
     <>
-
-      <Head>
-        <title>Pastures</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <CalendlyWidget />
 
       <MaxWidthWrapper className="mb-12 mt-28 sm:mt-25 flex flex-col items-center justify-center text-center">
         <h1 className='max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl'>
@@ -48,7 +33,7 @@ export default function Home() {
         <div className='mt-8 mb-6'>
           <AppStoreButton />
         </div>
-        
+
       </MaxWidthWrapper>
 
       {/* value proposition section*/}
@@ -69,7 +54,7 @@ export default function Home() {
                 <div className='-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4'>
                   <Image
                     src='/pastures-showcase1.svg'
-                    alt='product preview'
+                    alt='Pandai preview'
                     width={1920}
                     height={1080}
                     quality={100}
@@ -171,12 +156,6 @@ export default function Home() {
           <p className="text-sm text-gray-500 text-center mt-2">Psalm 23:2</p>
         </div>
       </div>
-
-
-
-
-
-
     </>
   )
 }

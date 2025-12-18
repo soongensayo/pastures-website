@@ -1,15 +1,42 @@
-'use client'
-
 import MaxWidthWrapper from '@/components/MaxWidthWrapper'
-import { ArrowLeft, Calendar, Clock, Tag, Share2 } from 'lucide-react'
+import { ArrowLeft, Calendar, Clock, Tag } from 'lucide-react'
 import Link from 'next/link'
 import { getPostBySlug, getRelatedPosts, formatDate, categories } from '@/lib/blogPosts'
 import { notFound } from 'next/navigation'
 import type { BlogPost } from '@/lib/blogPosts'
+import { Metadata } from 'next'
+import ShareButton from '@/components/ShareButton'
 
 interface BlogPostPageProps {
   params: {
     slug: string
+  }
+}
+
+export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
+  const post = getPostBySlug(params.slug)
+  if (!post) {
+    return {
+      title: 'Post Not Found',
+    }
+  }
+
+  return {
+    title: `${post.title} | Pastures Blog`,
+    description: post.excerpt,
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      type: 'article',
+      publishedTime: post.date,
+      authors: [post.author],
+      tags: post.tags,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.excerpt,
+    },
   }
 }
 
@@ -31,24 +58,6 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
       amber: 'bg-amber-100 text-amber-800 border-amber-200',
     }
     return colorMap[categories[category].color as keyof typeof colorMap] || colorMap.blue
-  }
-
-  const handleShare = async () => {
-    if (navigator.share) {
-      try {
-        await navigator.share({
-          title: post.title,
-          text: post.excerpt,
-          url: window.location.href,
-        })
-      } catch (err) {
-        console.log('Share failed:', err)
-      }
-    } else {
-      // Fallback: copy to clipboard
-      navigator.clipboard.writeText(window.location.href)
-      alert('Link copied to clipboard!')
-    }
   }
 
   return (
@@ -97,54 +106,50 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
               <Clock className="w-4 h-4" />
               <span>{post.readTime}</span>
             </div>
-            <button
-              onClick={handleShare}
-              className="ml-auto flex items-center gap-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors"
-              aria-label="Share article"
-            >
-              <Share2 className="w-4 h-4" />
-              <span className="text-sm font-medium">Share</span>
-            </button>
+
+            <ShareButton title={post.title} text={post.excerpt} />
           </div>
 
           {/* Content */}
           <div className="prose prose-lg max-w-none">
             <div className="text-gray-700 leading-relaxed space-y-6">
               {typeof post.content === 'string' ? (
-                <div 
+                <div
                   className="markdown-content"
-                  dangerouslySetInnerHTML={{ __html: post.content.split('\n').map(line => {
-                    // Simple markdown-like formatting
-                    if (line.startsWith('# ')) {
-                      return `<h1 class="text-3xl font-bold mt-8 mb-4 text-gray-900">${line.slice(2)}</h1>`
-                    } else if (line.startsWith('## ')) {
-                      return `<h2 class="text-2xl font-bold mt-6 mb-3 text-gray-900">${line.slice(3)}</h2>`
-                    } else if (line.startsWith('### ')) {
-                      return `<h3 class="text-xl font-semibold mt-4 mb-2 text-gray-900">${line.slice(4)}</h3>`
-                    } else if (line.startsWith('> ')) {
-                      let quotedText = line.slice(2)
-                      // Apply formatting to blockquotes
-                      quotedText = quotedText.replace(/\*\*(.*?)\*\*/g, '<strong class="font-semibold text-gray-800">$1</strong>')
-                      quotedText = quotedText.replace(/\*(.*?)\*/g, '<em>$1</em>')
-                      return `<blockquote class="border-l-4 border-green-500 pl-4 italic text-gray-600 my-4">${quotedText}</blockquote>`
-                    } else if (line.startsWith('- ') || line.startsWith('* ')) {
-                      let listText = line.slice(2)
-                      // Apply formatting to list items
-                      listText = listText.replace(/\*\*(.*?)\*\*/g, '<strong class="font-semibold text-gray-900">$1</strong>')
-                      listText = listText.replace(/\*(.*?)\*/g, '<em>$1</em>')
-                      return `<li class="ml-6 mb-2">${listText}</li>`
-                    } else if (line.startsWith('---')) {
-                      return `<hr class="my-8 border-gray-300" />`
-                    } else if (line.trim() === '') {
-                      return '<br />'
-                    } else {
-                      // Replace **bold** with <strong>
-                      let formatted = line.replace(/\*\*(.*?)\*\*/g, '<strong class="font-semibold text-gray-900">$1</strong>')
-                      // Replace *italic* with <em>
-                      formatted = formatted.replace(/\*(.*?)\*/g, '<em>$1</em>')
-                      return `<p class="mb-4">${formatted}</p>`
-                    }
-                  }).join('') }}
+                  dangerouslySetInnerHTML={{
+                    __html: post.content.split('\n').map(line => {
+                      // Simple markdown-like formatting
+                      if (line.startsWith('# ')) {
+                        return `<h1 class="text-3xl font-bold mt-8 mb-4 text-gray-900">${line.slice(2)}</h1>`
+                      } else if (line.startsWith('## ')) {
+                        return `<h2 class="text-2xl font-bold mt-6 mb-3 text-gray-900">${line.slice(3)}</h2>`
+                      } else if (line.startsWith('### ')) {
+                        return `<h3 class="text-xl font-semibold mt-4 mb-2 text-gray-900">${line.slice(4)}</h3>`
+                      } else if (line.startsWith('> ')) {
+                        let quotedText = line.slice(2)
+                        // Apply formatting to blockquotes
+                        quotedText = quotedText.replace(/\*\*(.*?)\*\*/g, '<strong class="font-semibold text-gray-800">$1</strong>')
+                        quotedText = quotedText.replace(/\*(.*?)\*/g, '<em>$1</em>')
+                        return `<blockquote class="border-l-4 border-green-500 pl-4 italic text-gray-600 my-4">${quotedText}</blockquote>`
+                      } else if (line.startsWith('- ') || line.startsWith('* ')) {
+                        let listText = line.slice(2)
+                        // Apply formatting to list items
+                        listText = listText.replace(/\*\*(.*?)\*\*/g, '<strong class="font-semibold text-gray-900">$1</strong>')
+                        listText = listText.replace(/\*(.*?)\*/g, '<em>$1</em>')
+                        return `<li class="ml-6 mb-2">${listText}</li>`
+                      } else if (line.startsWith('---')) {
+                        return `<hr class="my-8 border-gray-300" />`
+                      } else if (line.trim() === '') {
+                        return '<br />'
+                      } else {
+                        // Replace **bold** with <strong>
+                        let formatted = line.replace(/\*\*(.*?)\*\*/g, '<strong class="font-semibold text-gray-900">$1</strong>')
+                        // Replace *italic* with <em>
+                        formatted = formatted.replace(/\*(.*?)\*/g, '<em>$1</em>')
+                        return `<p class="mb-4">${formatted}</p>`
+                      }
+                    }).join('')
+                  }}
                 />
               ) : (
                 post.content
