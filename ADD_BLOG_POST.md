@@ -88,6 +88,20 @@ Divider line
 ✅ Add 3-5 relevant tags
 ✅ Aim for 800-1500 word posts
 
+## 🚀 SEO Superpowers (New!)
+Your blog posts are now automatically optimized for search engines. Here is how your data powers SEO:
+
+| Field | SEO Role | Why it matters |
+|-------|----------|----------------|
+| `title` | Page Title + OG Title | Displayed in search results and social cards. Make it catchy! |
+| `excerpt` | Meta Description | The 1-2 sentence preview shown under the blue link in Google. |
+| `tags` | Meta Keywords | Helps search engines understand the topics (also used for "Related Posts"). |
+| `image` | OG Image | (Optional) The preview image shown on Twitter/Facebook/LinkedIn. |
+| `date` | Published Date | Tells Google when content is fresh. |
+| `author` | Author Tag | Builds E-E-A-T (Experience, Expertise, Authoritativeness, and Trustworthiness). |
+
+**Bonus:** Every new post is **automatically** added to `sitemap.xml` so Google can find it instantly!
+
 ## 🎯 Real Example
 
 ```typescript
