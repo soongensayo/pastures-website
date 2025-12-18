@@ -13,13 +13,13 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.pastures.app'),
   title: {
-    default: 'Pastures - Connect with your thoughts, experiences and the Word of God',
+    default: 'Pastures - The Christian Super App',
     template: '%s | Pastures',
   },
   description: 'Pastures is a one-stop solution for journalling, learning, and growing spiritually. AI-powered categorization, personalized devotionals, and spiritual guidance for your faith journey.',
   openGraph: {
-    title: 'Pastures - Spiritual Growth & Journaling App',
-    description: 'Connect with your thoughts, experiences and the Word of God through AI-powered journaling and personalized devotionals.',
+    title: 'Pastures - The Christian Super App',
+    description: 'Pastures is a one-stop solution for journalling, learning, and growing spiritually. AI-powered categorization, personalized devotionals, and spiritual guidance for your faith journey.',
     url: 'https://www.pastures.app',
     siteName: 'Pastures',
     locale: 'en_US',
