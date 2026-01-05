@@ -369,6 +369,78 @@ Update your app today to start your first Session!
 *"Thy word is a lamp unto my feet, and a light unto my path." - Psalm 119:105*
     `
 },
+{
+  slug: 'praying-for-people-journeys',
+  title: 'Supporting Your Prayer Life: Recorded Intercession',
+  excerpt: 'Discover how to use Journeys to record audio prayers, and witness God’s sovereignty in the lives of the people around you.',
+  author: 'Pastures Team',
+  date: '2026-01-05',
+  readTime: '5 min read',
+  category: 'features',
+  tags: ['prayer', 'relationships', 'audio', 'testimony'],
+  content: `
+We often tell our friends, "I'll pray for you." But how often do we remember exactly what we prayed for, or recognize when those prayers were answered months later?
+
+In **Pastures**, we believe that the people in your life are part of your spiritual discipleship. That is why we built the **People Journey** feature—a dedicated timeline that helps you intercede intentionally and see God's hand over time.
+
+## Journeys: Your Relational Timeline
+
+One of the unique aspects of Pastures is that it works in the background while you journal. As you write your daily entries, our system detects the people you mention (whether it's a spouse, a struggling friend, or a mentor).
+
+It automatically weaves these mentions into a specific **Journey** for that person.
+
+<img src="/blog-assets/people-journey-timeline.png" alt="Screenshot of a Person Journey Timeline in Pastures" class="w-1/2 mx-auto rounded-lg shadow-lg my-8" />
+
+Instead of digging through months of scattered diary entries to find what you wrote about your friend John, you can simply open "John's Journey" and see a chronological view of every interaction, joy, and struggle you've shared.
+
+## The Power of Recorded Prayer
+
+Within these Journeys, we have introduced a feature that brings a new level of intimacy to your prayer life: **Audio Prayer Recording**.
+
+Directly from a person's timeline, you can tap an action item to "Pray for them." This isn't just a text box; it is a space to literally speak your heart out to God.
+
+<img src="/blog-assets/audio-prayer-ui.png" alt="Interface showing audio prayer recording button" class="w-1/2 mx-auto rounded-lg shadow-lg my-8" />
+
+When you finish recording, that audio prayer is stamped onto their timeline.
+
+### Why Record Your Prayers?
+
+You might wonder, "Why do I need to record it? Isn't prayer private?"
+
+Absolutely. Prayer is a sacred conversation between you and God (Matthew 6:6). These recordings are encrypted and strictly for your own private reflection. But there is a profound biblical precedent for *documenting* our cries to God.
+
+The **Psalms** are essentially recorded prayers. David didn't just think his prayers; he wrote them down, sung them, and preserved them.
+
+> "I love the LORD, for he heard my voice; he heard my cry for mercy. Because he turned his ear to me, I will call on him as long as I live." - Psalm 116:1-2
+
+Recording your voice captures the emotion, the urgency, and the specific burden you felt in that moment in a way that text sometimes cannot.
+
+## Seeing God's Sovereignty in Hindsight
+
+The real beauty of this feature reveals itself over time.
+
+Imagine reviewing a Journey from two years ago. You see a timeline that looks like this:
+1.  **Nov 2025:** A journal entry about a conflict.
+2.  **Dec 2025:** An audio recording of you praying for reconciliation, your voice full of worry.
+3.  **Feb 2026:** A journal entry noting a small breakthrough.
+4.  **June 2026:** A praise report of a restored relationship.
+
+When you see the prayer directly preceding the answer, mapped out on a timeline, you get a front-row seat to **God's Sovereignty**. You realize that while you were worrying, He was working.
+
+## A Challenge for You
+
+This week, try it out.
+1.  Go to the **Journeys** section of the app.
+2.  Select a person you have been meaning to pray for.
+3.  Hit the **Pray** action, and record a short 2-minute prayer for them.
+
+Let's move from saying "I'll pray for you" to actually doing it, and building a history of God's faithfulness in the process.
+
+---
+
+*"I thank my God every time I remember you. In all my prayers for all of you, I always pray with joy..." - Philippians 1:3-4*
+  `
+},
 ];
 
 // Helper functions
