@@ -276,7 +276,7 @@ Technology is just the vessel; the refreshment comes from Him. We are building P
   },
   {
     slug: 'introducing-learning-plans',
-    title: 'Introducing Learning Plans: A Better Way to Read the Bible',
+    title: 'Introducing Learning Plans: A New Way to Study the Bible',
     excerpt: 'Ditch the guilt of falling behind on Bible reading plans. Discover a session-based approach to deep Bible study with our new Learning Plans.',
     author: 'Pastures Team',
     date: '2025-11-24',
