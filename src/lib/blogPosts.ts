@@ -32,29 +32,29 @@ export const blogPosts: BlogPost[] = [
     date: '2025-11-01',
     readTime: '5 min read',
     category: 'announcement',
-    tags: ['introduction', 'getting started'],
+    tags: ['introduction', 'getting started', 'Christian journaling app', 'spiritual growth app'],
     content: `
 We're excited to launch our blog!
 
 ## What You'll Find Here
 
 ### Feature Deep Dives
-Learn how to make the most of Pastures' intelligent features, from AI-powered categorization to personalized daily prompts.
+Learn how to make the most of Pastures' intelligent features, from AI-powered categorization to personalized daily prompts. These tools are designed to enhance your **Christian journaling** experience.
 
 ### Journaling Best Practices
-Discover proven techniques for meaningful spiritual journaling that connects your daily experiences with God's Word.
+Discover proven techniques for meaningful **spiritual journaling** that connects your daily experiences with God's Word.
 
 ### Biblical Insights
-Explore how Scripture speaks to modern life, with practical applications for your faith journey.
+Explore how Scripture speaks to modern life, with practical applications for your **faith journey**.
 
 ### Community Stories
 Read testimonies and experiences from fellow believers using Pastures to grow closer to God.
 
 ## Our Mission
 
-At Pastures, we believe that technology should serve your spiritual growth, not distract from it. Through this blog, we aim to equip you with the knowledge and inspiration to:
+At Pastures, we believe that technology should serve your **spiritual growth**, not distract from it. Through this blog, we aim to equip you with the knowledge and inspiration to:
 
-- Develop consistent spiritual disciplines
+- Develop consistent **spiritual disciplines**
 - Connect life experiences with biblical truth
 - Build a rich archive of God's faithfulness
 - Grow in relationship with Christ
@@ -68,15 +68,15 @@ Stay tuned for regular posts that will help you make the most of your faith jour
   },
   {
     slug: 'why-journaling-matters-for-christians',
-    title: 'Why Journaling Matters for Christians',
-    excerpt: 'Explore the biblical foundation and practical benefits of keeping a spiritual journal in your walk with God.',
+    title: 'Why Journaling Matters for Christians: 5 Biblical Benefits',
+    excerpt: 'Explore the biblical foundation and practical benefits of keeping a spiritual journal. Learn how a Christian journaling app can transform your walk with God.',
     author: 'Pastures Team',
     date: '2025-11-02',
     readTime: '4 min read',
     category: 'journaling',
-    tags: ['journaling', 'spiritual disciplines', 'reflection'],
+    tags: ['journaling', 'spiritual disciplines', 'reflection', 'Bible study', 'Christian living'],
     content: `
-Journaling isn't just a modern trend - it's a practice deeply rooted in Scripture and Christian tradition. Let's explore why this spiritual discipline can transform your relationship with God.
+Journaling isn't just a modern trend - it's a practice deeply rooted in Scripture and Christian tradition. Let's explore why this **spiritual discipline** can transform your relationship with God.
 
 ## Biblical Foundation
 
@@ -103,7 +103,7 @@ Like the Psalmists, journaling gives us space to bring our authentic selves befo
 Regular reflection helps us identify recurring themes, growth areas, and God's consistent character in our lives.
 
 ### 4. Deepening Scripture Meditation
-Writing about how God's Word applies to our lives moves truth from head to heart.
+Writing about how God's Word applies to our lives moves truth from head to heart. This is a core part of **Bible study and reflection**.
 
 ### 5. Creating Kingdom Legacy
 Your journal becomes a testimony for future generations of God's work in your life.
@@ -117,7 +117,7 @@ Don't overthink it. Start simple:
 - Note Scripture that speaks to you
 - Track prayers and answers
 
-With tools like Pastures, you can make journaling easier and more insightful through intelligent organization and AI-powered connections.
+With tools like **Pastures**, you can make journaling easier and more insightful through intelligent organization and AI-powered connections. It's the ultimate **Christian journaling app** for the modern believer.
 
 ## Conclusion
 
@@ -132,15 +132,15 @@ Will you start today?
   },
   {
     slug: 'understanding-ai-journeys',
-    title: 'Understanding AI-Powered Journeys in Pastures',
-    excerpt: 'Learn how Pastures automatically categorizes your journal entries into meaningful life journeys using advanced AI.',
+    title: 'How AI-Powered Journeys Help You Track Spiritual Growth',
+    excerpt: 'Learn how Pastures uses AI to automatically organize your journal entries into meaningful life journeys, helping you see God at work.',
     author: 'Pastures Team',
     date: '2025-11-02',
     readTime: '6 min read',
     category: 'features',
-    tags: ['AI', 'journeys', 'features', 'categorization'],
+    tags: ['AI', 'journeys', 'spiritual growth', 'categorization', 'Christian AI'],
     content: `
-One of Pastures' most powerful features is the automatic organization of your journal entries into meaningful "Journeys" - distinct tracks of your spiritual and relational life.
+One of Pastures' most powerful features is the automatic organization of your journal entries into meaningful "Journeys" - distinct tracks of your spiritual and relational life. Using **AI for spiritual growth** has never been more accessible.
 
 ## What Are Journeys?
 
@@ -161,7 +161,7 @@ When you write a journal entry, Pastures' AI analyzes:
 - **Themes**: Recurring topics or spiritual questions
 - **Relationships**: People mentioned and your interactions
 
-The AI then automatically tags your entry with relevant journeys, without you having to manually organize anything.
+The AI then automatically tags your entry with relevant journeys, without you having to manually organize anything. This **automated journaling** saves time and provides deeper insights.
 
 ## Why This Matters
 
@@ -205,9 +205,7 @@ To maximize this feature:
 
 ## Conclusion
 
-AI-powered journeys transform your journal from a flat chronological record into a rich, interconnected map of your spiritual life.
-
-Experience the difference in how you understand God's work in your life!
+AI-powered journeys transform your journal from a flat chronological record into a rich, interconnected map of your spiritual life. Experience the future of **digital spiritual disciplines**.
 
 ---
 
@@ -216,19 +214,19 @@ Experience the difference in how you understand God's work in your life!
   },
   {
     slug: 'building-pastures-insights-nus-students',
-    title: 'Building Pastures: User Group Session (Nov 2025)',
-    excerpt: 'We sat down with the NUS Business and Computing Christian Fellowship to discuss faith, technology, and the future of Christian journaling. Here is what we learned.',
+    title: 'Building Pastures: NUS Student Insights on Faith and Tech',
+    excerpt: 'We discussed faith, technology, and the future of Christian journaling with NUS students. Discover how we’re building the best app for spiritual growth.',
     author: 'Pastures Team',
     date: '2025-11-18',
     readTime: '5 min read',
     category: 'announcement',
-    tags: ['user research', 'building in public', 'community', 'faith and tech'],
+    tags: ['user research', 'building in public', 'Christian students', 'faith and tech', 'NUS'],
     content: `
 Today was a milestone for **Pastures**. We had the privilege of sitting down with 8 members of the Business and Computing Christian Fellowship at the National University of Singapore (NUS).
 
-<img src="/blog-assets/user-group-18-nov.png" alt="User group session with NUS students" class="w-full rounded-lg shadow-lg my-8" />
+<img src="/blog-assets/user-group-18-nov.png" alt="Pastures team with NUS Business and Computing Christian Fellowship members discussing AI and faith" class="w-full rounded-lg shadow-lg my-8" />
 
-We didn't just look at screens; we looked at hearts. We discussed how young Christians are currently connecting with God, their struggles with consistency, and how technology (specifically AI) can bridge that gap without replacing the Holy Spirit.
+We didn't just look at screens; we looked at hearts. We discussed how young Christians are currently connecting with God, their struggles with consistency, and how technology (specifically **AI for Christians**) can bridge that gap without replacing the Holy Spirit.
 
 Here is what we learned, what we got right, and the hard questions we need to answer.
 
@@ -239,22 +237,18 @@ One of the biggest takeaways from the session is that spiritual documentation is
 There is no "standard" user. We found that journaling often happens in:
 
 * **Phases and Seasons:** Many students noted they only journal during "unfamiliar cases" or when "things get tough." It’s often ad-hoc rather than a daily discipline.
-* **Digital Fragmentation:** The tools are everywhere. Some use physical books (one student carries a specific book everywhere), others use Google Docs (one entry per year), Excel sheets for verse tracking, and even private Telegram channels to mark spiritual milestones.
-* **The "Write and Forget" Problem:** A common pain point was writing things down but never reading them again. As one student put it, they "take stock" but struggle to retrieve those insights later.
+* **Digital Fragmentation:** The tools are everywhere. Some use physical books, others use Google Docs, Excel sheets for verse tracking, and even private Telegram channels.
+* **The "Write and Forget" Problem:** A common pain point was writing things down but never reading them again.
 
-This validates our core vision: **Reflection helps us see God's work in our lives**. We are building Pastures to solve this fragmentation, turning scattered notes into a cohesive spiritual journey.
+This validates our core vision: **Reflection helps us see God's work in our lives**. We are building Pastures to solve this fragmentation, turning scattered notes into a cohesive **spiritual journey**.
 
 ## 2. Where AI Shines
 
-We introduced the group to the core pillars of Pastures: **Learnings, Entries, and Prayer**.
-
-The feedback on the **Daily Prompt** feature was particularly encouraging. Students liked how the app personalized the experience, offering a starting point for those who stare at a blank page. There was genuine excitement about the concept of AI recommending verses based on their current emotional state or recent entries.
-
-This aligns with our roadmap to create a "Christian superapp" that helps believers grow, using technology to curate scripture that speaks directly to their current season of life.
+The feedback on the **Daily Prompt** feature was particularly encouraging. Students liked how the app personalized the experience, offering a starting point for those who stare at a blank page. There was genuine excitement about the concept of **AI-powered devotionals** recommending verses based on their current emotional state.
 
 ## 3. The Hard Truths: UX Friction & AI Anxiety
 
-However, a user feedback session isn't useful if it’s just compliments. The students were honest about where we need to improve, and we are grateful for that.
+Students were honest about where we need to improve.
 
 ### The User Experience (UX) Hurdles
 * **Navigation:** New users struggled to find the "New Entry" button during the onboarding phase.
@@ -262,105 +256,74 @@ However, a user feedback session isn't useful if it’s just compliments. The st
 * **Categorization:** The category review screen was overwhelming. We are looking into simplifying this to make tagging learnings easier.
 
 ### The Theological Elephant in the Room
-The most critical feedback, however, wasn't about buttons—it was about **Trust**. Several students raised valid concerns about AI in a faith context:
-
+Several students raised valid concerns about AI in a faith context:
 > "What if it hallucinates?"
 > "What if it twists the Word of God in its interpretation?"
 
-These are the exact questions we *should* be asking. As we build features like the Learning Assistant and Semantic Search, our priority is not just "cool tech," but **biblical integrity**.
+These are the exact questions we *should* be asking. As we build features like the **Learning Assistant** and **Semantic Search**, our priority is **biblical integrity**.
 
 ## 4. The Road Ahead
 
-We are taking this feedback back to the lab immediately. Here is what is coming next based on today's session:
-
-1.  **Guardrails for Truth:** We are doubling down on our prompt engineering to ensure the AI points users *back* to Scripture rather than interpreting it loosely.
-2.  **Privacy First:** We heard you on data isolation. We are exploring ways to keep sensitive data local and ensure your spiritual diary remains between you and God. Meanwhile, rest assured that your data is encrypted and stored securely, and that your content will never be shared, sold, or read by anyone other than you.
+1.  **Guardrails for Truth:** Ensuring the AI points users *back* to Scripture.
+2.  **Privacy First:** Keeping sensitive spiritual data local and encrypted.
 
 ## Final Thoughts
 
 Our vision is based on **Psalm 23**: *"He makes me lie down in green pastures, he leads me beside quiet waters, he refreshes my soul."*
 
-Technology is just the vessel; the refreshment comes from Him. We are building Pastures not to replace your Bible, but to help you engage with it more deeply.
+Technology is just the vessel; the refreshment comes from Him. We are building Pastures to help you engage with the Bible more deeply.
     `
   },
   {
     slug: 'introducing-learning-plans',
-    title: 'Introducing Learning Plans: A New Way to Engage the Word',
-    excerpt: 'Say goodbye to the guilt of falling behind on Bible schedules. Discover a session-based approach designed for intentionality and deep learning.',
+    title: 'Introducing Learning Plans: A Better Way to Read the Bible',
+    excerpt: 'Ditch the guilt of falling behind on Bible reading plans. Discover a session-based approach to deep Bible study with our new Learning Plans.',
     author: 'Pastures Team',
     date: '2025-11-24',
     readTime: '6 min read',
     category: 'features',
-    tags: ['Bible', 'new feature', 'learning', 'AI'],
+    tags: ['Bible study', 'Bible reading plan', 'Christian learning', 'AI Bible assistant'],
     content: `
-We've all felt the friction.
-
-Maybe you started a "Read the Bible in a Year" plan with enthusiasm, only to miss a few days and feel the crushing weight of "falling behind." Or perhaps you are just trying to explore the Bible on your own, but every time you open it, you feel paralyzed—unsure where to start, overwhelmed by the complexity, or simply feeling like you're just going through the motions.
-
-Today, we are changing that dynamic with the launch of **Learning Plans** (accessible via the "Explore" button in the "New Learning" screen).
+We've all felt the friction of missing a day in a "Read the Bible in a Year" plan. Today, we are changing that with **Learning Plans** (accessible via the "Explore" button in the "New Learning" screen).
 
 ## The Problem: The "Checkbox" Mentality
 
-Current Bible plans often stipulate exactly which passage must be read on which specific day. While well-intentioned, this structure often leads to:
-1.  **Fatigue:** Rushing through verses just to say you did it.
+Current **Bible plans** often lead to:
+1.  **Fatigue:** Rushing through verses.
 2.  **Guilt:** Feeling like a failure when you "fall behind."
-3.  **Passive Reading:** Scanning words without truly digesting them.
-4.  **Fragmentation:** Reading isolated verses ("verse of the day") without understanding what is actually happening in the text.
+3.  **Passive Reading:** Scanning words without digesting them.
 
-We believe going into the Word should be intentional and deliberate—never a chore.
+We believe going into the Word should be intentional and deliberate.
 
 ## Enter Learning Plans
 
-We have reimagined Bible engagement to be **Session-Based** rather than Schedule-Based. We are launching this with our new **Bible Book Plans**.
-<img src="/blog-assets/chooselearningplans.png" alt="Choosing Learning Plans" class="w-1/2 mx-auto rounded-lg shadow-lg my-8" />
+We have reimagined **Bible engagement** to be **Session-Based** rather than Schedule-Based.
+<img src="/blog-assets/chooselearningplans.png" alt="Choosing Bible Book Learning Plans in the Pastures app" class="w-1/2 mx-auto rounded-lg shadow-lg my-8" />
 
 ### How It Works
 
 **1. You Set the Pace**
-There are no "overdue" notifications. Each time you choose to enter the plan, a new **Session** begins.
+Each time you choose to enter the plan, a new **Session** begins. No overdue notifications.
 
 **2. Intelligent Action Menu**
-As you read, you aren't just scrolling. We've introduced an intelligent action menu that allows you to:
 * **Write Notes:** Jot down immediate reflections.
-<img src="/blog-assets/learningplannotes.png" alt="Notes" class="w-1/2 mx-auto rounded-lg shadow-lg my-8" />
-* **Ask Questions:** Unclear about a cultural reference? Confused by a word? Ask Pastures' Learning Assistant right there in the text.
-<img src="/blog-assets/learningplans-blogpost-1.png" alt="Pastures' Learning Assistant" class="w-1/2 mx-auto rounded-lg shadow-lg my-8" />
+<img src="/blog-assets/learningplannotes.png" alt="Taking notes during a Bible study session in Pastures" class="w-1/2 mx-auto rounded-lg shadow-lg my-8" />
+* **Ask Questions:** Confused? Ask the **AI Bible Assistant** right there in the text.
+<img src="/blog-assets/learningplans-blogpost-1.png" alt="Using the Pastures Learning Assistant to ask questions about Scripture" class="w-1/2 mx-auto rounded-lg shadow-lg my-8" />
 
 **3. Checkpoints & Learnings**
-Because the Word of God is "alive and active, sharper than any double-edged sword" (Hebrews 4:12), we believe every session should result in a takeaway, no matter how big or small.
-* **The Checkpoint:** When you are done, simply mark your last read verse. We save your spot instantly.
-* **The Learning:** Your notes and the Q&A responses from that session are compiled and saved as a "Learning." You can review these later, effectively building your own commentary library over time.
+Your notes and Q&A responses are saved as a "Learning," helping you build your own **personal commentary library**.
 
 ## Why We Designed It This Way: Context is Key
 
-You might notice that we are launching strictly with **Bible Book Plans** first. This is intentional.
-
-In the digital age, it is easy to treat the Bible like a jar of fortune cookies—grabbing random verses that make us feel good while ignoring the verses around them. But to truly know God, we need to hear Him out fully.
-
-We prioritized **Book Plans** because:
-
-* **To Know Who God Really Is:** When we read Scripture in disjointed fragments, we risk creating a caricature of God based on our own preferences. Reading whole books reveals His character in its fullness—His holiness, His justice, and His relentless love. It deepens our appreciation and awe for Him in a way that isolated verses cannot.
-* **To Live as Followers of Jesus:** Context isn't just academic; it's practical. Understanding the full counsel of God's Word bridges the gap between ancient text and modern discipleship. It shows us how to embody the teachings of Jesus in our daily lives, moving us from merely "knowing the rules" to understanding the heart of the Father.
-* **Context Creates Clarity:** To truly understand a verse, you must understand the paragraph, the chapter, and the book it resides in. This honors the author's intent and helps us trace the beautiful narrative arc of redemption throughout history.
+We prioritized **Bible Book Plans** because:
+* **To Know God's Character:** Reading whole books reveals His character in its fullness.
+* **To Live as Followers of Jesus:** Context bridges the gap between ancient text and modern **discipleship**.
+* **Context Creates Clarity:** Understanding the narrative arc of redemption.
 
 ## A Note on AI & Theology
 
-With the introduction of the "Ask Question" feature, we want to be transparent about our roadmap and philosophy.
-
-We recognize that using AI in a spiritual context is very new territory. However, we believe it is a powerful piece of technology that, when approached with wisdom, can be engineered for His glory—helping to unlock understanding and accessibility.
-
-**That said, we want to be clear: both the learning flows and the intelligence behind Pastures' Learning Assistant are currently in their infant stages.**
-
-Currently, the Assistant is engineered to provide concise, biblically-grounded answers that respect the immediate context of the passage. It is designed to help explain the author's flow of thought and democratize access to biblical knowledge.
-
-**A few important caveats and future plans:**
-* **Work in Progress:** We have ambitious plans to enhance the AI responses. We are working toward integrating specific Bible study tools, templated questions, and deeper theological frameworks.
-* **Education, Not Instruction:** The AI is a tool to educate, not a spiritual authority to instruct. It is not a replacement for the Holy Spirit. We expect and encourage users to read the Word for themselves and let God convict their hearts.
-* **Your Feedback Matters:** We know there are valid concerns about AI interpretation. We are committed to improvement and would love to hear your feedback as you use the tool.
-
-## What's Next?
-
-This is just the beginning for Learning Plans. We are exploring further integrations into other parts of the app to make your spiritual journey even more seamless.
+The **Pastures Learning Assistant** is a tool to educate, not a spiritual authority. It's designed for **biblically-grounded answers** that point you back to the Word.
 
 Update your app today to start your first Session!
 
@@ -371,74 +334,43 @@ Update your app today to start your first Session!
 },
 {
   slug: 'praying-for-people-journeys',
-  title: 'Supporting Your Prayer Life: Recorded Intercession',
-  excerpt: 'Discover how to use Journeys to record audio prayers, and witness God’s sovereignty in the lives of the people around you.',
+  title: 'Supporting Your Prayer Life with Recorded Intercession',
+  excerpt: 'Learn how to use People Journeys to record audio prayers and witness God’s faithfulness in your relationships over time.',
   author: 'Pastures Team',
   date: '2026-01-05',
   readTime: '5 min read',
   category: 'features',
-  tags: ['prayer', 'relationships', 'audio', 'testimony'],
+  tags: ['prayer life', 'intercession', 'spiritual journal', 'audio prayer', 'testimony'],
   content: `
-We often tell our friends, "I'll pray for you." But how often do we remember exactly what we prayed for, or recognize when those prayers were answered months later?
-
-In **Pastures**, we believe that the people in your life are part of your spiritual discipleship. That is why we built the **People Journey** feature—a dedicated timeline that helps you intercede intentionally and see God's hand over time.
+We often tell our friends, "I'll pray for you." But how often do we see the full picture of how God answers those prayers? In **Pastures**, we built the **People Journey** feature to help you intercede intentionally.
 
 ## Journeys: Your Relational Timeline
 
-One of the unique aspects of Pastures is that it works in the background while you journal. As you write your daily entries, our system detects the people you mention (whether it's a spouse, a struggling friend, or a mentor).
+As you journal, Pastures detects the people you mention and weaves them into a specific **Journey**.
 
-It automatically weaves these mentions into a specific **Journey** for that person.
+<img src="/blog-assets/people-journey-timeline.png" alt="A timeline showing a history of interactions and prayers for a specific person in the Pastures app" class="w-1/2 mx-auto rounded-lg shadow-lg my-8" />
 
-<img src="/blog-assets/people-journey-timeline.png" alt="Screenshot of a Person Journey Timeline in Pastures" class="w-1/2 mx-auto rounded-lg shadow-lg my-8" />
-
-Instead of digging through months of scattered diary entries to find what you wrote about your friend John, you can simply open "John's Journey" and see a chronological view of every interaction, joy, and struggle you've shared.
+Instead of digging through scattered entries, you can see a chronological view of your intercession for a friend.
 
 ## The Power of Recorded Prayer
 
-Within these Journeys, we have introduced a feature that brings a new level of intimacy to your prayer life: **Audio Prayer Recording**.
-
-Directly from a person's timeline, you can tap an action item to "Pray for them." This isn't just a text box; it is a space to literally speak your heart out to God.
-
-<img src="/blog-assets/audio-prayer-ui.png" alt="Interface showing audio prayer recording button" class="w-1/2 mx-auto rounded-lg shadow-lg my-8" />
-
-When you finish recording, that audio prayer is stamped onto their timeline.
+We've introduced **Audio Prayer Recording** directly within these Journeys.
+<img src="/blog-assets/audio-prayer-ui.png" alt="The interface for recording an audio prayer for a friend in Pastures" class="w-1/2 mx-auto rounded-lg shadow-lg my-8" />
 
 ### Why Record Your Prayers?
+Recording your voice captures the emotion and urgency in a way that text sometimes cannot. The **Psalms** are essentially recorded prayers, preserved for generations.
 
-You might wonder, "Why do I need to record it? Isn't prayer private?"
-
-Absolutely. Prayer is a sacred conversation between you and God (Matthew 6:6). These recordings are encrypted and strictly for your own private reflection. But there is a profound biblical precedent for *documenting* our cries to God.
-
-The **Psalms** are essentially recorded prayers. David didn't just think his prayers; he wrote them down, sung them, and preserved them.
-
-> "I love the LORD, for he heard my voice; he heard my cry for mercy. Because he turned his ear to me, I will call on him as long as I live." - Psalm 116:1-2
-
-Recording your voice captures the emotion, the urgency, and the specific burden you felt in that moment in a way that text sometimes cannot.
+> "I love the LORD, for he heard my voice; he heard my cry for mercy." - Psalm 116:1-2
 
 ## Seeing God's Sovereignty in Hindsight
 
-The real beauty of this feature reveals itself over time.
+The real beauty is seeing the prayer directly preceding the answer, mapped out on a timeline. It gives you a front-row seat to **God's Sovereignty** in your life and relationships.
 
-Imagine reviewing a Journey from two years ago. You see a timeline that looks like this:
-1.  **Nov 2025:** A journal entry about a conflict.
-2.  **Dec 2025:** An audio recording of you praying for reconciliation, your voice full of worry.
-3.  **Feb 2026:** A journal entry noting a small breakthrough.
-4.  **June 2026:** A praise report of a restored relationship.
-
-When you see the prayer directly preceding the answer, mapped out on a timeline, you get a front-row seat to **God's Sovereignty**. You realize that while you were worrying, He was working.
-
-## A Challenge for You
-
-This week, try it out.
-1.  Go to the **Journeys** section of the app.
-2.  Select a person you have been meaning to pray for.
-3.  Hit the **Pray** action, and record a short 2-minute prayer for them.
-
-Let's move from saying "I'll pray for you" to actually doing it, and building a history of God's faithfulness in the process.
+Try it out this week in the **Journeys** section of the app. Let's move from saying "I'll pray for you" to building a history of God's faithfulness.
 
 ---
 
-*"I thank my God every time I remember you. In all my prayers for all of you, I always pray with joy..." - Philippians 1:3-4*
+*"I thank my God every time I remember you..." - Philippians 1:3-4*
   `
 },
 ];

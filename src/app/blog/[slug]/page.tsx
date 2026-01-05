@@ -24,18 +24,31 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   return {
     title: `${post.title} | Pastures Blog`,
     description: post.excerpt,
+    alternates: {
+      canonical: `https://www.pastures.app/blog/${params.slug}`,
+    },
     openGraph: {
       title: post.title,
       description: post.excerpt,
       type: 'article',
+      url: `https://www.pastures.app/blog/${params.slug}`,
       publishedTime: post.date,
       authors: [post.author],
       tags: post.tags,
+      images: [
+        {
+          url: post.image || 'https://www.pastures.app/pastures-showcase.png',
+          width: 1200,
+          height: 630,
+          alt: post.title,
+        },
+      ],
     },
     twitter: {
       card: 'summary_large_image',
       title: post.title,
       description: post.excerpt,
+      images: [post.image || 'https://www.pastures.app/pastures-showcase.png'],
     },
   }
 }
@@ -48,6 +61,34 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
   }
 
   const relatedPosts = getRelatedPosts(post)
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.title,
+    description: post.excerpt,
+    image: post.image || 'https://www.pastures.app/pastures-showcase.png',
+    datePublished: post.date,
+    dateModified: post.date,
+    author: {
+      '@type': 'Organization',
+      name: 'Pastures Team',
+      url: 'https://www.pastures.app',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Pastures',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.pastures.app/pastureslogo1.png',
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://www.pastures.app/blog/${post.slug}`,
+    },
+    keywords: post.tags.join(', '),
+  }
 
   const getCategoryColor = (category: BlogPost['category']) => {
     const colorMap = {
@@ -62,6 +103,10 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Back Navigation */}
       <MaxWidthWrapper className="pt-8">
         <Link
